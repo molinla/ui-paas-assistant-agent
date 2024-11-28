@@ -1,0 +1,7116 @@
+{
+  "uidl": "1.0.0",
+  "nodes": {
+    "root": {
+      "id": "root",
+      "type": "element",
+      "uri": "std.Root",
+      "sort": "a0",
+      "props": {},
+      "styles": {
+        "gap": "0px",
+        "padding": "0px",
+        "background-color": "#1117a0",
+        "font-size": "22px"
+      }
+    },
+    "Container751880f9-2555-4142-9538-9361e5aef784": {
+      "type": "element",
+      "id": "Container751880f9-2555-4142-9538-9361e5aef784",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "width": "1320px",
+        "justify-content": "center",
+        "padding": "40px 0px 0px 0px ",
+        "align-items": "center"
+      },
+      "from": "ContainertnBcLblr1sT",
+      "sort": "a0"
+    },
+    "Textfe61ec82-a99e-47af-8d2e-657d78201e86": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "A1-Driven Cyber Security Solutions"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "700",
+        "font-size": "93px",
+        "width": "680px",
+        "line-height": "106px",
+        "margin": "10px 0px 0px 0px ",
+        "border-bottom": "none",
+        "flex-direction": "row"
+      },
+      "uri": "std.Text",
+      "id": "Textfe61ec82-a99e-47af-8d2e-657d78201e86",
+      "from": "Container4916f3de-0c86-4372-89cc-66eaccd85159",
+      "sort": "a0"
+    },
+    "Container4916f3de-0c86-4372-89cc-66eaccd85159": {
+      "type": "element",
+      "id": "Container4916f3de-0c86-4372-89cc-66eaccd85159",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "column"
+      },
+      "from": "Container751880f9-2555-4142-9538-9361e5aef784",
+      "sort": "Zz"
+    },
+    "Textf22d7635-b2fe-4cfb-a375-209f49821f3b": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Wellcome to Softech"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "#f8ff35",
+        "font-weight": "500",
+        "margin": "60px 0px 0px 0px "
+      },
+      "uri": "std.Text",
+      "id": "Textf22d7635-b2fe-4cfb-a375-209f49821f3b",
+      "from": "Container4916f3de-0c86-4372-89cc-66eaccd85159",
+      "sort": "Zz"
+    },
+    "Button6d52d220-27e0-4789-aba0-a31fac0de512": {
+      "type": "element",
+      "props": {
+        "theme": "solid",
+        "type": "primary",
+        "children": "Get in Touch"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "border-radius": "30px 0px 0px 30px ",
+        "height": "0px",
+        "width": "150px",
+        "background-color": "#002fa7",
+        "border": "1px solid #002fa7",
+        "padding": "25px",
+        "font-size": "16px",
+        "color": "#f8ff35",
+        "margin": "0px 0px 0px 0px "
+      },
+      "uri": "std.Button",
+      "id": "Button6d52d220-27e0-4789-aba0-a31fac0de512",
+      "from": "Containeraaca0238-6acf-4791-bbdc-d06c0a3f2444",
+      "sort": "a0"
+    },
+    "Containeraaca0238-6acf-4791-bbdc-d06c0a3f2444": {
+      "type": "element",
+      "id": "Containeraaca0238-6acf-4791-bbdc-d06c0a3f2444",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "margin": "50px 0px 0px 0px "
+      },
+      "from": "Container4916f3de-0c86-4372-89cc-66eaccd85159",
+      "sort": "a0V"
+    },
+    "Button7a512a62-c283-48c4-9c32-965ee6219f2f": {
+      "type": "element",
+      "props": {
+        "theme": "solid",
+        "type": "primary",
+        "children": ">"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "border-radius": "0px 30px 30px 0px ",
+        "height": "0px",
+        "width": "10px",
+        "background-color": "#f8ff35",
+        "border": "1px solid #f8ff35",
+        "padding": "25px",
+        "font-size": "16px",
+        "color": "rgba(0,0,0,1)",
+        "margin": "0px 0px 0px 0px ",
+        "font-family": "Hiragino Sans GB"
+      },
+      "uri": "std.Button",
+      "sort": "a1",
+      "id": "Button7a512a62-c283-48c4-9c32-965ee6219f2f",
+      "from": "Containeraaca0238-6acf-4791-bbdc-d06c0a3f2444"
+    },
+    "Imagec2cc5353-50cd-44b7-b340-93129d289372": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/4193bb79-e77b-4551-97e5-2453efa8333e"
+      },
+      "styles": {
+        "flex-basis": "auto"
+      },
+      "uri": "std.Image",
+      "id": "Imagec2cc5353-50cd-44b7-b340-93129d289372",
+      "from": "Container751880f9-2555-4142-9538-9361e5aef784",
+      "sort": "a2"
+    },
+    "Container6ca70815-2929-4e50-9b1d-ec7ff8be14e9": {
+      "type": "element",
+      "id": "Container6ca70815-2929-4e50-9b1d-ec7ff8be14e9",
+      "uri": "std.Container",
+      "styles": {
+        "flex-direction": "row",
+        "flex-basis": "auto",
+        "background-image": "url(https://assets.deamoy.com/dad5ea55-8d6f-42a5-a613-6582223f89ce)",
+        "background-size": "auto auto",
+        "background-position": "center center",
+        "background-repeat": "no-repeat",
+        "background-attachment": "scroll",
+        "justify-content": "center",
+        "align-items": "center",
+        "padding": "0px",
+        "height": "140px",
+        "margin": "140px 0px 0px 0px "
+      },
+      "from": "root",
+      "sort": "a1"
+    },
+    "Container3a369f3a-e658-42fc-8faa-22731ae136dd": {
+      "type": "element",
+      "id": "Container3a369f3a-e658-42fc-8faa-22731ae136dd",
+      "uri": "std.Container",
+      "styles": {
+        "flex-direction": "row",
+        "flex-basis": "auto",
+        "justify-content": "center",
+        "align-items": "center"
+      },
+      "from": "Container6ca70815-2929-4e50-9b1d-ec7ff8be14e9",
+      "sort": "a0"
+    },
+    "Container28400219-3cc1-435b-8814-864a73977aca": {
+      "type": "element",
+      "id": "Container28400219-3cc1-435b-8814-864a73977aca",
+      "uri": "std.Container",
+      "styles": {
+        "flex-direction": "row",
+        "flex-basis": "auto",
+        "align-items": "center",
+        "justify-content": "center",
+        "padding": "0px 0px 0px 0px "
+      },
+      "from": "Container6ca70815-2929-4e50-9b1d-ec7ff8be14e9",
+      "sort": "a1"
+    },
+    "Imageeb666e35-e950-4eaa-b541-5497ea50dbdb": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/cf51bd1e-e797-44e8-8dee-9235e9a4c5c8"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "70px",
+        "height": "84px"
+      },
+      "uri": "std.Image",
+      "id": "Imageeb666e35-e950-4eaa-b541-5497ea50dbdb",
+      "from": "Container3a369f3a-e658-42fc-8faa-22731ae136dd",
+      "sort": "a0"
+    },
+    "Textead1362a-2d19-4e0c-9840-38ea86473872": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "2k Companies\nTrusted\nin the world"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "width": "210px",
+        "margin": "0px 0px 0px 20px ",
+        "font-size": "18px",
+        "font-weight": "500"
+      },
+      "uri": "std.Text",
+      "id": "Textead1362a-2d19-4e0c-9840-38ea86473872",
+      "from": "Container3a369f3a-e658-42fc-8faa-22731ae136dd",
+      "sort": "a1"
+    },
+    "Imagee4b004f0-2c9e-4831-9777-a948e9ce67b5": {
+      "type": "element",
+      "uri": "std.Image",
+      "props": {
+        "src": "https://assets.deamoy.com/6dfa4c58-d858-4b17-99a6-4289a67726d5"
+      },
+      "id": "Imagee4b004f0-2c9e-4831-9777-a948e9ce67b5",
+      "from": "Container28400219-3cc1-435b-8814-864a73977aca",
+      "sort": "a0",
+      "styles": {
+        "width": "60px",
+        "height": "60px",
+        "margin": "0px 8px 0px 8px "
+      }
+    },
+    "Imaged045dfd1-2a2a-4f49-8c4d-2b8976e60a34": {
+      "type": "element",
+      "uri": "std.Image",
+      "props": {
+        "src": "https://assets.deamoy.com/d16437c7-795c-4303-985a-5485692262ac"
+      },
+      "sort": "a2",
+      "styles": {
+        "width": "60px",
+        "height": "60px",
+        "flex-basis": "auto",
+        "margin": "0px 8px 0px 8px "
+      },
+      "id": "Imaged045dfd1-2a2a-4f49-8c4d-2b8976e60a34",
+      "from": "Container6ca70815-2929-4e50-9b1d-ec7ff8be14e9"
+    },
+    "Containerdd0d862c-d29c-43bf-8560-0f170a3ad3f5": {
+      "type": "element",
+      "id": "Containerdd0d862c-d29c-43bf-8560-0f170a3ad3f5",
+      "uri": "std.Container",
+      "styles": {
+        "flex-direction": "row",
+        "flex-basis": "auto",
+        "width": "auto",
+        "justify-content": "center",
+        "align-items": "center",
+        "margin": "100px 0px 70px 0px "
+      },
+      "from": "root",
+      "sort": "a2"
+    },
+    "Container2884070c-f624-49f9-a18e-6d331c8cf9dd": {
+      "type": "element",
+      "id": "Container2884070c-f624-49f9-a18e-6d331c8cf9dd",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "column"
+      },
+      "from": "Containerdd0d862c-d29c-43bf-8560-0f170a3ad3f5",
+      "sort": "a0"
+    },
+    "Textc7a819ab-d54c-4827-9555-6c3192566191": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "WHAT WE DO"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "#f8ff35",
+        "font-size": "14px"
+      },
+      "uri": "std.Text",
+      "id": "Textc7a819ab-d54c-4827-9555-6c3192566191",
+      "from": "Container2884070c-f624-49f9-a18e-6d331c8cf9dd",
+      "sort": "a0"
+    },
+    "Textdc8d271d-0fe4-43dc-b6ef-8a14d2fd0941": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Our Services"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "60px",
+        "font-weight": "700"
+      },
+      "uri": "std.Text",
+      "id": "Textdc8d271d-0fe4-43dc-b6ef-8a14d2fd0941",
+      "from": "Container2884070c-f624-49f9-a18e-6d331c8cf9dd",
+      "sort": "a1"
+    },
+    "Container79c9d9a0-2005-42d0-929f-e091bdc6fea9": {
+      "type": "element",
+      "id": "Container79c9d9a0-2005-42d0-929f-e091bdc6fea9",
+      "uri": "std.Container",
+      "styles": {
+        "flex-direction": "row",
+        "flex-basis": "auto",
+        "border-top": "1px solid rgba(255,255,255,0.1)",
+        "padding": "0px",
+        "justify-content": "center",
+        "align-items": "center",
+        "width": "1173px"
+      },
+      "from": "ContainerigEgqIAfQhw",
+      "sort": "a0"
+    },
+    "Container1932063b-e9fe-427b-aad4-1680830d4b72": {
+      "type": "element",
+      "id": "Container1932063b-e9fe-427b-aad4-1680830d4b72",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "column",
+        "margin": "0px",
+        "width": "290px",
+        "padding": "50px",
+        "border-right": "1px solid rgba(255,255,255,0.1)"
+      },
+      "from": "Container79c9d9a0-2005-42d0-929f-e091bdc6fea9",
+      "sort": "a0"
+    },
+    "Image2831ee34-bb92-43ca-b3c3-35a8157e397a": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/e7897902-4e3d-43b4-9bb9-823be2400890"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "76px",
+        "margin": "0px 0px 0px 0px ",
+        "padding": "0px 0px 0px 0px ",
+        "height": "89px"
+      },
+      "uri": "std.Image",
+      "id": "Image2831ee34-bb92-43ca-b3c3-35a8157e397a",
+      "from": "Container886a885f-ff16-4b29-af19-a4f0477d3f95",
+      "sort": "a0"
+    },
+    "Textb210f038-fa7d-4a18-969d-e55158271225": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Cyber Security\nSolustions"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "22px",
+        "font-weight": "500",
+        "margin": "90px 0px 24px 0px "
+      },
+      "uri": "std.Text",
+      "id": "Textb210f038-fa7d-4a18-969d-e55158271225",
+      "from": "Container1932063b-e9fe-427b-aad4-1680830d4b72",
+      "sort": "a1"
+    },
+    "Button282f9f80-49d5-4e99-9f80-7d24d93556cd": {
+      "type": "element",
+      "props": {
+        "theme": "solid",
+        "type": "primary",
+        "children": "Learn More"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "font-size": "14px",
+        "color": "#f8ff35",
+        "border-radius": "20px",
+        "background-color": "unset",
+        "border": "1px solid rgba(255,255,255,0.1)",
+        "width": "130px",
+        "justify-content": "center"
+      },
+      "uri": "std.Button",
+      "id": "Button282f9f80-49d5-4e99-9f80-7d24d93556cd",
+      "from": "Container1932063b-e9fe-427b-aad4-1680830d4b72",
+      "sort": "a2"
+    },
+    "Containerc79fe7da-898d-415c-a014-f09526f6d6a9": {
+      "type": "element",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "column",
+        "margin": "0px",
+        "width": "290px",
+        "padding": "50px",
+        "border-right": "1px solid rgba(255,255,255,0.1)"
+      },
+      "sort": "a1",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/e7897902-4e3d-43b4-9bb9-823be2400890"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "76px",
+            "margin": "0px 0px 0px 0px ",
+            "padding": "0px 0px 0px 0px "
+          },
+          "uri": "std.Image",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Cyber Security\nSolustions"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "22px",
+            "font-weight": "500",
+            "margin": "90px 0px 24px 0px "
+          },
+          "uri": "std.Text",
+          "sort": "a1"
+        },
+        {
+          "type": "element",
+          "props": {
+            "theme": "solid",
+            "type": "primary",
+            "children": "Learn More"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "font-size": "14px",
+            "color": "#f8ff35",
+            "border-radius": "20px",
+            "background-color": "unset",
+            "border": "1px solid rgba(255,255,255,0.1)",
+            "width": "130px",
+            "justify-content": "center"
+          },
+          "uri": "std.Button",
+          "sort": "a2"
+        }
+      ],
+      "id": "Containerc79fe7da-898d-415c-a014-f09526f6d6a9",
+      "from": "Container79c9d9a0-2005-42d0-929f-e091bdc6fea9"
+    },
+    "Button62583274-dabd-4624-aca8-cbf129034ba2": {
+      "type": "element",
+      "props": {
+        "theme": "solid",
+        "type": "primary",
+        "children": "Learn More"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "font-size": "14px",
+        "color": "#f8ff35",
+        "border-radius": "20px",
+        "background-color": "unset",
+        "border": "1px solid rgba(255,255,255,0.1)",
+        "width": "130px",
+        "justify-content": "center"
+      },
+      "uri": "std.Button",
+      "sort": "a2",
+      "from": "Containerc79fe7da-898d-415c-a014-f09526f6d6a9.children",
+      "id": "Button62583274-dabd-4624-aca8-cbf129034ba2"
+    },
+    "Text2400a082-c598-45dc-be6a-ceb92b4533c0": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "AI Data Cloud\nSolution"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "22px",
+        "font-weight": "500",
+        "margin": "90px 0px 24px 0px "
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "from": "Containerc79fe7da-898d-415c-a014-f09526f6d6a9.children",
+      "id": "Text2400a082-c598-45dc-be6a-ceb92b4533c0"
+    },
+    "Container99043496-0210-49bc-b9b5-1f36dd21dfda": {
+      "type": "element",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "column",
+        "margin": "0px",
+        "width": "290px",
+        "padding": "50px",
+        "border-right": "1px solid rgba(255,255,255,0.1)"
+      },
+      "sort": "a2",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/e7897902-4e3d-43b4-9bb9-823be2400890"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "76px",
+            "margin": "0px 0px 0px 0px ",
+            "padding": "0px 0px 0px 0px "
+          },
+          "uri": "std.Image",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Cyber Security\nSolustions"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "22px",
+            "font-weight": "500",
+            "margin": "90px 0px 24px 0px "
+          },
+          "uri": "std.Text",
+          "sort": "a1"
+        },
+        {
+          "type": "element",
+          "props": {
+            "theme": "solid",
+            "type": "primary",
+            "children": "Learn More"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "font-size": "14px",
+            "color": "#f8ff35",
+            "border-radius": "20px",
+            "background-color": "unset",
+            "border": "1px solid rgba(255,255,255,0.1)",
+            "width": "130px",
+            "justify-content": "center"
+          },
+          "uri": "std.Button",
+          "sort": "a2"
+        }
+      ],
+      "id": "Container99043496-0210-49bc-b9b5-1f36dd21dfda",
+      "from": "Container79c9d9a0-2005-42d0-929f-e091bdc6fea9"
+    },
+    "Button7f8a163d-28b8-4c91-8186-8c58e61d7963": {
+      "type": "element",
+      "props": {
+        "theme": "solid",
+        "type": "primary",
+        "children": "Learn More"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "font-size": "14px",
+        "color": "#f8ff35",
+        "border-radius": "20px",
+        "background-color": "unset",
+        "border": "1px solid rgba(255,255,255,0.1)",
+        "width": "130px",
+        "justify-content": "center"
+      },
+      "uri": "std.Button",
+      "sort": "a2",
+      "from": "Container99043496-0210-49bc-b9b5-1f36dd21dfda.children",
+      "id": "Button7f8a163d-28b8-4c91-8186-8c58e61d7963"
+    },
+    "Text92f9cdab-b82a-4d84-9177-cdd1e0e9ddb1": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Managed\nWeb Application"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "22px",
+        "font-weight": "500",
+        "margin": "90px 0px 24px 0px "
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "from": "Container99043496-0210-49bc-b9b5-1f36dd21dfda.children",
+      "id": "Text92f9cdab-b82a-4d84-9177-cdd1e0e9ddb1"
+    },
+    "Image71f247c4-eab7-49fd-93ce-253aa9275518": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/22b2905d-693b-4c1a-89d8-8d0d525914a6"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "auto",
+        "margin": "0px 0px 0px 0px ",
+        "padding": "0px 0px 0px 0px ",
+        "height": "auto"
+      },
+      "uri": "std.Image",
+      "sort": "a0",
+      "from": "Container1c2f82f1-5fb9-40f9-bf37-76126625463c",
+      "id": "Image71f247c4-eab7-49fd-93ce-253aa9275518"
+    },
+    "Containerb222d4e7-6f3f-44f0-8c5f-0e1cd6fc94e6": {
+      "type": "element",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "column",
+        "margin": "0px",
+        "width": "290px",
+        "padding": "50px"
+      },
+      "sort": "a3",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/e7897902-4e3d-43b4-9bb9-823be2400890"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "76px",
+            "margin": "0px 0px 0px 0px ",
+            "padding": "0px 0px 0px 0px "
+          },
+          "uri": "std.Image",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Cyber Security\nSolustions"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "22px",
+            "font-weight": "500",
+            "margin": "90px 0px 24px 0px "
+          },
+          "uri": "std.Text",
+          "sort": "a1"
+        },
+        {
+          "type": "element",
+          "props": {
+            "theme": "solid",
+            "type": "primary",
+            "children": "Learn More"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "font-size": "14px",
+            "color": "#f8ff35",
+            "border-radius": "20px",
+            "background-color": "unset",
+            "border": "1px solid rgba(255,255,255,0.1)",
+            "width": "130px",
+            "justify-content": "center"
+          },
+          "uri": "std.Button",
+          "sort": "a2"
+        }
+      ],
+      "id": "Containerb222d4e7-6f3f-44f0-8c5f-0e1cd6fc94e6",
+      "from": "Container79c9d9a0-2005-42d0-929f-e091bdc6fea9"
+    },
+    "Button16ae1e64-829d-4999-8a8d-24112e3da7d8": {
+      "type": "element",
+      "props": {
+        "theme": "solid",
+        "type": "primary",
+        "children": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Learn More"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "font-size": "14px",
+        "color": "#f8ff35",
+        "border-radius": "20px",
+        "background-color": "unset",
+        "border": "1px solid rgba(255,255,255,0.1)",
+        "width": "130px",
+        "justify-content": "center"
+      },
+      "uri": "std.Button",
+      "sort": "a2",
+      "from": "Containerb222d4e7-6f3f-44f0-8c5f-0e1cd6fc94e6.children",
+      "id": "Button16ae1e64-829d-4999-8a8d-24112e3da7d8"
+    },
+    "Text5e3a09f7-483e-4f16-a5f9-9cf4a6556211": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "24//7 Customer\nSupport"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "22px",
+        "font-weight": "500",
+        "margin": "90px 0px 24px 0px "
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "from": "Containerb222d4e7-6f3f-44f0-8c5f-0e1cd6fc94e6.children",
+      "id": "Text5e3a09f7-483e-4f16-a5f9-9cf4a6556211"
+    },
+    "Imaged89873a8-e17f-48c6-96db-bd51141f10df": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/4991ca31-c27e-4d60-b7be-340615b06c27"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "auto",
+        "margin": "0px 0px 0px 0px ",
+        "padding": "0px 0px 0px 0px ",
+        "height": "auto"
+      },
+      "uri": "std.Image",
+      "sort": "a0",
+      "from": "Container5cbed7f1-1347-4082-b662-a01967510c6a",
+      "id": "Imaged89873a8-e17f-48c6-96db-bd51141f10df"
+    },
+    "Container886a885f-ff16-4b29-af19-a4f0477d3f95": {
+      "type": "element",
+      "id": "Container886a885f-ff16-4b29-af19-a4f0477d3f95",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "height": "100px"
+      },
+      "from": "Container1932063b-e9fe-427b-aad4-1680830d4b72",
+      "sort": "Zz"
+    },
+    "Containere2946eca-f3f0-485b-9b80-081bb1902adb": {
+      "type": "element",
+      "id": "Containere2946eca-f3f0-485b-9b80-081bb1902adb",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "height": "100px",
+        "width": "104px",
+        "align-items": "center",
+        "justify-content": "center"
+      },
+      "from": "Containerc79fe7da-898d-415c-a014-f09526f6d6a9",
+      "sort": "Zz"
+    },
+    "Container1c2f82f1-5fb9-40f9-bf37-76126625463c": {
+      "type": "element",
+      "id": "Container1c2f82f1-5fb9-40f9-bf37-76126625463c",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "height": "100px",
+        "width": "100px",
+        "justify-content": "center",
+        "align-items": "center"
+      },
+      "from": "Container99043496-0210-49bc-b9b5-1f36dd21dfda",
+      "sort": "Zz"
+    },
+    "Container5cbed7f1-1347-4082-b662-a01967510c6a": {
+      "type": "element",
+      "id": "Container5cbed7f1-1347-4082-b662-a01967510c6a",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "height": "100px",
+        "align-items": "center",
+        "justify-content": "center",
+        "width": "80px"
+      },
+      "from": "Containerb222d4e7-6f3f-44f0-8c5f-0e1cd6fc94e6",
+      "sort": "a0V"
+    },
+    "Image4a511581-9219-41e7-ae80-33d5878c8d21": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/ea9ebdda-e952-4c04-bd76-5bbe51c8bbd1"
+      },
+      "styles": {
+        "flex-basis": "auto"
+      },
+      "uri": "std.Image",
+      "id": "Image4a511581-9219-41e7-ae80-33d5878c8d21",
+      "from": "Containere2946eca-f3f0-485b-9b80-081bb1902adb",
+      "sort": "a0"
+    },
+    "Container09958131-b510-42f3-b43b-0091b59e24e7": {
+      "type": "element",
+      "id": "Container09958131-b510-42f3-b43b-0091b59e24e7",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "margin": "100px 0px 0px 0px ",
+        "align-items": "center",
+        "justify-content": "center"
+      },
+      "from": "root",
+      "sort": "a4"
+    },
+    "Container9cbb6a7d-30ca-40ea-8f19-eac7d8cb839e": {
+      "type": "element",
+      "id": "Container9cbb6a7d-30ca-40ea-8f19-eac7d8cb839e",
+      "uri": "std.Container",
+      "styles": {
+        "flex-direction": "row",
+        "flex-basis": "auto"
+      },
+      "from": "Container09958131-b510-42f3-b43b-0091b59e24e7",
+      "sort": "a0"
+    },
+    "Container541bc456-b68f-4fd5-8644-9e5c72b68bab": {
+      "type": "element",
+      "id": "Container541bc456-b68f-4fd5-8644-9e5c72b68bab",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "column"
+      },
+      "from": "Container09958131-b510-42f3-b43b-0091b59e24e7",
+      "sort": "a1"
+    },
+    "Imagee888359b-1d1c-4725-b546-319fb6fa2de8": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/4f7d80d4-2388-4fb7-8a37-10ac4cf46b73"
+      },
+      "styles": {
+        "flex-basis": "auto"
+      },
+      "uri": "std.Image",
+      "id": "Imagee888359b-1d1c-4725-b546-319fb6fa2de8",
+      "from": "Container9cbb6a7d-30ca-40ea-8f19-eac7d8cb839e",
+      "sort": "a0"
+    },
+    "Container5f8bc0e1-7c44-4ff8-b4a2-107555ab6835": {
+      "type": "element",
+      "id": "Container5f8bc0e1-7c44-4ff8-b4a2-107555ab6835",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "column"
+      },
+      "from": "Container541bc456-b68f-4fd5-8644-9e5c72b68bab",
+      "sort": "a0"
+    },
+    "Container8d6c7bde-e762-4e9f-8403-065a0e13c847": {
+      "type": "element",
+      "id": "Container8d6c7bde-e762-4e9f-8403-065a0e13c847",
+      "uri": "std.Container",
+      "styles": {
+        "flex-direction": "row",
+        "align-items": "center",
+        "flex-basis": "auto"
+      },
+      "from": "Container541bc456-b68f-4fd5-8644-9e5c72b68bab",
+      "sort": "a1"
+    },
+    "Container9832bd0f-67b7-431a-9834-e38d55309a8a": {
+      "type": "element",
+      "id": "Container9832bd0f-67b7-431a-9834-e38d55309a8a",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto"
+      },
+      "from": "Container541bc456-b68f-4fd5-8644-9e5c72b68bab",
+      "sort": "a4"
+    },
+    "Text6f4d0e04-06f5-4e82-829a-d7bc2068ec5b": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Who we are"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "#f8ff35"
+      },
+      "uri": "std.Text",
+      "id": "Text6f4d0e04-06f5-4e82-829a-d7bc2068ec5b",
+      "from": "Container5f8bc0e1-7c44-4ff8-b4a2-107555ab6835",
+      "sort": "a0"
+    },
+    "Text2c24ce20-37b5-4814-9736-92b443047e0a": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Confidence in Your Security"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "font-size": "60px",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "700",
+        "width": "440px",
+        "line-height": "60px"
+      },
+      "uri": "std.Text",
+      "id": "Text2c24ce20-37b5-4814-9736-92b443047e0a",
+      "from": "Container5f8bc0e1-7c44-4ff8-b4a2-107555ab6835",
+      "sort": "a1"
+    },
+    "Container43ff2823-5fc4-4b81-941f-cd1dccf69504": {
+      "type": "element",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "margin": "30px 0px 30px 0px ",
+        "width": "350px",
+        "border-left": "1px solid rgba(255,255,255,1)"
+      },
+      "sort": "a2",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Softech provides all customer management\nservice within one software."
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "17px",
+            "margin": "0px 0px 0px 20px "
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        }
+      ],
+      "id": "Container43ff2823-5fc4-4b81-941f-cd1dccf69504",
+      "from": "Container5f8bc0e1-7c44-4ff8-b4a2-107555ab6835"
+    },
+    "Text5b569cc3-98a6-4fd8-8656-6586618815dd": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "These cyberattacks are usually aimed at accessing, changing,or destroying sensitive information normal business processes.!"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,0.7)",
+        "font-size": "17px",
+        "margin": "0px 0px 0px 20px "
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "Container43ff2823-5fc4-4b81-941f-cd1dccf69504.children",
+      "id": "Text5b569cc3-98a6-4fd8-8656-6586618815dd"
+    },
+    "Image09038a21-0283-40d7-9876-59b481b08464": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/81544ce5-8242-49a9-97f3-b9192c0a0283"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "22px",
+        "height": "22px"
+      },
+      "uri": "std.Image",
+      "id": "Image09038a21-0283-40d7-9876-59b481b08464",
+      "from": "Container8d6c7bde-e762-4e9f-8403-065a0e13c847",
+      "sort": "a0"
+    },
+    "Text4a67babf-e25f-4cc9-aeb7-107eb3605e73": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "High-Performance\n\nSolutions"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "16px",
+        "font-weight": "500",
+        "align-items": "center",
+        "margin": "0px 0px 0px 10px "
+      },
+      "uri": "std.Text",
+      "id": "Text4a67babf-e25f-4cc9-aeb7-107eb3605e73",
+      "from": "Container8d6c7bde-e762-4e9f-8403-065a0e13c847",
+      "sort": "a1"
+    },
+    "Container37552e50-9b5d-460f-9c75-49147ec27b0e": {
+      "type": "element",
+      "uri": "std.Container",
+      "styles": {
+        "justify-content": "start",
+        "align-items": "center",
+        "flex-direction": "row",
+        "flex-basis": "auto",
+        "margin": "20px 0px 20px 0px "
+      },
+      "sort": "a3",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/81544ce5-8242-49a9-97f3-b9192c0a0283"
+          },
+          "styles": {
+            "flex-basis": "auto"
+          },
+          "uri": "std.Image",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "High-Performance\n\nSolutions"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "16px",
+            "font-weight": "500",
+            "align-items": "center",
+            "margin": "0px 0px 0px 10px "
+          },
+          "uri": "std.Text",
+          "sort": "a1"
+        }
+      ],
+      "id": "Container37552e50-9b5d-460f-9c75-49147ec27b0e",
+      "from": "Container541bc456-b68f-4fd5-8644-9e5c72b68bab"
+    },
+    "Texta4ed8a57-cee4-4814-bb39-32f01cb41e0d": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Best Cyber Security\n\nSolutions."
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "16px",
+        "font-weight": "500",
+        "align-items": "center",
+        "margin": "0px 0px 0px 10px "
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "from": "Container37552e50-9b5d-460f-9c75-49147ec27b0e.children",
+      "id": "Texta4ed8a57-cee4-4814-bb39-32f01cb41e0d"
+    },
+    "Image2f12ac28-74b6-48f3-959b-5e9456e5b7f9": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/81544ce5-8242-49a9-97f3-b9192c0a0283"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "22px",
+        "height": "22px"
+      },
+      "uri": "std.Image",
+      "sort": "a0",
+      "from": "Container37552e50-9b5d-460f-9c75-49147ec27b0e.children",
+      "id": "Image2f12ac28-74b6-48f3-959b-5e9456e5b7f9"
+    },
+    "Container05380efe-e3a0-47de-a9a9-60d8c5dab322": {
+      "type": "element",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "margin": "40px 0px 0px 0px "
+      },
+      "sort": "a0",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "theme": "solid",
+            "type": "primary",
+            "children": "Get in Touch"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "border-radius": "30px 0px 0px 30px ",
+            "height": "0px",
+            "width": "120px",
+            "background-color": "unset",
+            "border": "1px solid #f8ff35",
+            "padding": "25px",
+            "font-size": "16px",
+            "color": "#f8ff35",
+            "margin": "0px 0px 0px 0px "
+          },
+          "uri": "std.Button",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "theme": "solid",
+            "type": "primary",
+            "children": ">"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "border-radius": "0px 30px 30px 0px ",
+            "height": "0px",
+            "width": "10px",
+            "background-color": "#f8ff35",
+            "border": "1px solid #f8ff35",
+            "padding": "25px",
+            "font-size": "16px",
+            "color": "rgba(0,0,0,1)",
+            "margin": "0px 0px 0px 0px ",
+            "font-family": "Hiragino Sans GB"
+          },
+          "uri": "std.Button",
+          "sort": "a1"
+        }
+      ],
+      "id": "Container05380efe-e3a0-47de-a9a9-60d8c5dab322",
+      "from": "Container9832bd0f-67b7-431a-9834-e38d55309a8a"
+    },
+    "Buttonf38987d1-8ab2-4635-9ced-7452f1048117": {
+      "type": "element",
+      "props": {
+        "theme": "solid",
+        "type": "primary",
+        "children": ">"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "border-radius": "0px 30px 30px 0px ",
+        "height": "0px",
+        "width": "10px",
+        "background-color": "#f8ff35",
+        "border": "1px solid #f8ff35",
+        "padding": "25px",
+        "font-size": "16px",
+        "color": "rgba(0,0,0,1)",
+        "margin": "0px 0px 0px 0px ",
+        "font-family": "Hiragino Sans GB"
+      },
+      "uri": "std.Button",
+      "sort": "a1",
+      "from": "Container05380efe-e3a0-47de-a9a9-60d8c5dab322.children",
+      "id": "Buttonf38987d1-8ab2-4635-9ced-7452f1048117"
+    },
+    "Button63c36fe3-31dc-471a-9a1c-d09739404ffe": {
+      "type": "element",
+      "props": {
+        "theme": "solid",
+        "type": "primary",
+        "children": "About Us"
+      },
+      "styles": {
+        "justify-content": "start",
+        "flex-basis": "auto",
+        "border-radius": "30px 0px 0px 30px ",
+        "height": "0px",
+        "width": "130px",
+        "background-color": "unset",
+        "border": "1px solid #f8ff35",
+        "padding": "25px",
+        "font-size": "16px",
+        "color": "#f8ff35",
+        "margin": "0px 0px 0px 0px "
+      },
+      "uri": "std.Button",
+      "sort": "a0",
+      "from": "Container05380efe-e3a0-47de-a9a9-60d8c5dab322.children",
+      "id": "Button63c36fe3-31dc-471a-9a1c-d09739404ffe"
+    },
+    "Containera9c0299e-84fc-4b77-90a4-5f6d79db3436": {
+      "type": "element",
+      "id": "Containera9c0299e-84fc-4b77-90a4-5f6d79db3436",
+      "uri": "std.Container",
+      "styles": {
+        "flex-direction": "row",
+        "flex-basis": "auto",
+        "padding": "100px 0px 100px 0px ",
+        "justify-content": "center",
+        "align-items": "center"
+      },
+      "from": "root",
+      "sort": "a5"
+    },
+    "Containeraf3e29bd-eaa2-4337-ae3c-9a0dab14a7dd": {
+      "type": "element",
+      "id": "Containeraf3e29bd-eaa2-4337-ae3c-9a0dab14a7dd",
+      "uri": "std.Container",
+      "styles": {
+        "flex-direction": "row",
+        "flex-basis": "auto",
+        "background-color": null,
+        "background-image": "url(https://assets.deamoy.com/5cb205f7-f6b2-4f65-ac30-539173dec1d8)",
+        "background-size": "auto auto",
+        "background-position": "left center",
+        "background-repeat": "no-repeat",
+        "background-attachment": "scroll",
+        "width": "350px",
+        "height": "100px",
+        "padding": "0px 20px 0px 40px ",
+        "border-right": "1px solid rgba(255,255,255,0.1)",
+        "margin": "0px 40px 0px 0px "
+      },
+      "from": "Containera9c0299e-84fc-4b77-90a4-5f6d79db3436",
+      "sort": "a0"
+    },
+    "Text4de92489-15ea-4b76-a490-585621c32d52": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "23+"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "font-size": "50px",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "700",
+        "align-items": "center",
+        "margin": "0px 20px 0px 0px "
+      },
+      "uri": "std.Text",
+      "id": "Text4de92489-15ea-4b76-a490-585621c32d52",
+      "from": "Containeraf3e29bd-eaa2-4337-ae3c-9a0dab14a7dd",
+      "sort": "a0"
+    },
+    "Texta5841c0e-3075-4623-8c27-527c37c57d4d": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Years Of Experience"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,0.7)",
+        "align-items": "center"
+      },
+      "uri": "std.Text",
+      "id": "Texta5841c0e-3075-4623-8c27-527c37c57d4d",
+      "from": "Containeraf3e29bd-eaa2-4337-ae3c-9a0dab14a7dd",
+      "sort": "a1"
+    },
+    "Container3a370557-da40-4900-b4be-e486053be403": {
+      "type": "element",
+      "uri": "std.Container",
+      "styles": {
+        "flex-direction": "row",
+        "flex-basis": "auto",
+        "background-color": null,
+        "background-image": "url(https://assets.deamoy.com/5cb205f7-f6b2-4f65-ac30-539173dec1d8)",
+        "background-size": "auto auto",
+        "background-position": "left center",
+        "background-repeat": "no-repeat",
+        "background-attachment": "scroll",
+        "width": "470px",
+        "height": "100px",
+        "padding": "0px 20px 0px 40px ",
+        "border-right": "1px solid rgba(255,255,255,0.1)",
+        "margin": "0px 40px 0px 0px "
+      },
+      "sort": "a3",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "23+"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "font-size": "50px",
+            "color": "rgba(255,255,255,1)",
+            "font-weight": "700",
+            "align-items": "center",
+            "margin": "0px 10px 0px 10px "
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Years\nOf Experience"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,0.7)",
+            "align-items": "center"
+          },
+          "uri": "std.Text",
+          "sort": "a1"
+        }
+      ],
+      "id": "Container3a370557-da40-4900-b4be-e486053be403",
+      "from": "Containera9c0299e-84fc-4b77-90a4-5f6d79db3436"
+    },
+    "Textcdd88bcf-821a-4cbd-8a8e-01dbc0ed4823": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Year on\nyear\n Growth"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,0.7)",
+        "align-items": "center",
+        "margin": "0px 40px 0px 0px "
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "from": "Container3a370557-da40-4900-b4be-e486053be403.children",
+      "id": "Textcdd88bcf-821a-4cbd-8a8e-01dbc0ed4823"
+    },
+    "Textd356fee8-b10a-47bf-b2ff-66d33d7217e0": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "300%"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "font-size": "50px",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "700",
+        "align-items": "center",
+        "margin": "0px 20px 0px 0px "
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "Container3a370557-da40-4900-b4be-e486053be403.children",
+      "id": "Textd356fee8-b10a-47bf-b2ff-66d33d7217e0"
+    },
+    "Containere9c832b8-4a21-406c-b781-f231307df9ae": {
+      "type": "element",
+      "uri": "std.Container",
+      "styles": {
+        "flex-direction": "row",
+        "flex-basis": "auto",
+        "background-color": null,
+        "background-image": "url(https://assets.deamoy.com/5cb205f7-f6b2-4f65-ac30-539173dec1d8)",
+        "background-size": "auto auto",
+        "background-position": "left center",
+        "background-repeat": "no-repeat",
+        "background-attachment": "scroll",
+        "width": "350px",
+        "height": "100px",
+        "padding": "0px 20px 0px 40px ",
+        "border-right": "1px solid rgba(255,255,255,0.1)",
+        "margin": "0px 0px 0px 0px "
+      },
+      "sort": "a4",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "23+"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "font-size": "50px",
+            "color": "rgba(255,255,255,1)",
+            "font-weight": "700",
+            "align-items": "center",
+            "margin": "0px 10px 0px 10px "
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Years\nOf Experience"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,0.7)",
+            "align-items": "center"
+          },
+          "uri": "std.Text",
+          "sort": "a1"
+        }
+      ],
+      "id": "Containere9c832b8-4a21-406c-b781-f231307df9ae",
+      "from": "Containera9c0299e-84fc-4b77-90a4-5f6d79db3436"
+    },
+    "Textd1195f21-70ab-461c-87e1-ff9edcd90a2e": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Countries\nOf\n Operation"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,0.7)",
+        "align-items": "center"
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "from": "Containere9c832b8-4a21-406c-b781-f231307df9ae.children",
+      "id": "Textd1195f21-70ab-461c-87e1-ff9edcd90a2e"
+    },
+    "Text7ba41c2f-6889-4044-990f-9c58075b7c16": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "12+"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "font-size": "50px",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "700",
+        "align-items": "center",
+        "margin": "0px 20px 0px 0px "
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "Containere9c832b8-4a21-406c-b781-f231307df9ae.children",
+      "id": "Text7ba41c2f-6889-4044-990f-9c58075b7c16"
+    },
+    "ContainerSOVDDmlKkgF": {
+      "type": "element",
+      "id": "ContainerSOVDDmlKkgF",
+      "styles": {
+        "flex-basis": "auto",
+        "border-left": "1px solid rgba(255,255,255,0.1)",
+        "width": "350px",
+        "margin": "0px 0px 0px 400px "
+      },
+      "uri": "std.Container",
+      "from": "Containerdd0d862c-d29c-43bf-8560-0f170a3ad3f5",
+      "sort": "a0V"
+    },
+    "TexteLzm1t-Pizo": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Softech provides all customer management\nservice within one software."
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "17px",
+        "margin": "0px 0px 0px 20px "
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "id": "TexteLzm1t-Pizo",
+      "from": "ContainerSOVDDmlKkgF"
+    },
+    "ContainerigEgqIAfQhw": {
+      "type": "element",
+      "id": "ContainerigEgqIAfQhw",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "justify-content": "center",
+        "align-items": "center",
+        "background-color": "unset",
+        "background-image": "unset",
+        "background-size": null,
+        "background-position": null,
+        "background-repeat": null,
+        "background-attachment": null
+      },
+      "uri": "std.Container",
+      "from": "root",
+      "sort": "a2V"
+    },
+    "ContainertnBcLblr1sT": {
+      "type": "element",
+      "id": "ContainertnBcLblr1sT",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "justify-content": "center",
+        "align-items": "center",
+        "background-color": null,
+        "background-image": "url(https://assets.deamoy.com/Fj6H7rsltBL)",
+        "background-size": "auto auto",
+        "background-position": "0% 0%",
+        "background-repeat": "no-repeat",
+        "background-attachment": "scroll"
+      },
+      "uri": "std.Container",
+      "from": "root",
+      "sort": "a0V"
+    },
+    "ContainerwoWns0gC8CW": {
+      "type": "element",
+      "id": "ContainerwoWns0gC8CW",
+      "styles": {
+        "flex-basis": "auto",
+        "background-image": "url(https://assets.deamoy.com/u3zJFOZVuyb)",
+        "background-size": "auto auto",
+        "background-position": "0% 0%",
+        "background-repeat": "no-repeat",
+        "background-attachment": "scroll",
+        "height": "750px",
+        "background-color": null,
+        "flex-direction": "column",
+        "justify-content": "start",
+        "align-items": "center"
+      },
+      "uri": "std.Container",
+      "from": "root",
+      "sort": "a6"
+    },
+    "ContainerE0-y0BwzFRe": {
+      "type": "element",
+      "uri": "std.Container",
+      "styles": {
+        "flex-direction": "row",
+        "flex-basis": "auto",
+        "width": "1200px",
+        "justify-content": "center",
+        "align-items": "center",
+        "margin": "0px 0px 0px 0px "
+      },
+      "sort": "Zz",
+      "children": [
+        {
+          "type": "element",
+          "uri": "std.Container",
+          "styles": {
+            "flex-basis": "auto",
+            "flex-direction": "column"
+          },
+          "sort": "a0",
+          "children": [
+            {
+              "type": "element",
+              "props": {
+                "heading": 2,
+                "type": "success",
+                "children": "WHAT WE DO"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "color": "#f8ff35",
+                "font-size": "14px"
+              },
+              "uri": "std.Text",
+              "sort": "a0"
+            },
+            {
+              "type": "element",
+              "props": {
+                "heading": 2,
+                "type": "success",
+                "children": "Our Services"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "color": "rgba(255,255,255,1)",
+                "font-size": "60px",
+                "font-weight": "700"
+              },
+              "uri": "std.Text",
+              "sort": "a1"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "styles": {
+            "flex-basis": "auto",
+            "border-left": "1px solid rgba(255,255,255,0.1)",
+            "width": "350px",
+            "margin": "0px 0px 0px 400px "
+          },
+          "uri": "std.Container",
+          "sort": "a0V",
+          "children": [
+            {
+              "type": "element",
+              "props": {
+                "heading": 2,
+                "type": "success",
+                "children": "Softech provides all customer management\nservice within one software."
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "color": "rgba(255,255,255,1)",
+                "font-size": "17px",
+                "margin": "0px 0px 0px 20px "
+              },
+              "uri": "std.Text",
+              "sort": "a0"
+            }
+          ]
+        }
+      ],
+      "id": "ContainerE0-y0BwzFRe",
+      "from": "ContainerwoWns0gC8CW"
+    },
+    "ContainerZy8UgbVsObk": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "border-left": "1px solid rgba(255,255,255,0.1)",
+        "width": "420px",
+        "margin": "0px 0px 0px 300px "
+      },
+      "uri": "std.Container",
+      "sort": "a0V",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Softech provides all customer management\nservice within one software."
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "17px",
+            "margin": "0px 0px 0px 20px "
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        }
+      ],
+      "from": "ContainerE0-y0BwzFRe.children",
+      "id": "ContainerZy8UgbVsObk"
+    },
+    "TextQwTsnKCVBH7": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Explore how Avalance can help you toassess security\ncontrols continuously."
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "17px",
+        "margin": "0px 0px 0px 20px "
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "ContainerZy8UgbVsObk.children",
+      "id": "TextQwTsnKCVBH7"
+    },
+    "Container9p_FiQWw5cH": {
+      "type": "element",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "column"
+      },
+      "sort": "a0",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "WHAT WE DO"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "#f8ff35",
+            "font-size": "14px"
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Our Services"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "60px",
+            "font-weight": "700"
+          },
+          "uri": "std.Text",
+          "sort": "a1"
+        }
+      ],
+      "from": "ContainerE0-y0BwzFRe.children",
+      "id": "Container9p_FiQWw5cH"
+    },
+    "TextibW2qOli2aJ": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Our Platform"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "60px",
+        "font-weight": "700"
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "from": "Container9p_FiQWw5cH.children",
+      "id": "TextibW2qOli2aJ"
+    },
+    "TextcoLZ2dNce_H": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "What we offer"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "#f8ff35",
+        "font-size": "14px"
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "Container9p_FiQWw5cH.children",
+      "id": "TextcoLZ2dNce_H"
+    },
+    "Container5QhTc-IAk-O": {
+      "type": "element",
+      "id": "Container5QhTc-IAk-O",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "1200px",
+        "flex-direction": "row",
+        "align-items": "end",
+        "margin": "60px 0px 0px 0px "
+      },
+      "uri": "std.Container",
+      "from": "ContainerwoWns0gC8CW",
+      "sort": "a0"
+    },
+    "ImageOkmS5IgGrU_": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/yIHymdlC_n9"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "239px",
+        "height": "277px",
+        "align-items": "end"
+      },
+      "uri": "std.Image",
+      "id": "ImageOkmS5IgGrU_",
+      "from": "Container5QhTc-IAk-O",
+      "sort": "a0"
+    },
+    "ContainerypoBvdr3hOb": {
+      "type": "element",
+      "id": "ContainerypoBvdr3hOb",
+      "styles": {
+        "flex-basis": "auto",
+        "border-top": "2px solid #f8ff35",
+        "border-radius": "20px",
+        "background-color": "#3137d2",
+        "width": "120px",
+        "gap": "0px",
+        "flex-wrap": "nowrap",
+        "margin": "0px 15px 0px 15px ",
+        "height": "360px"
+      },
+      "uri": "std.Container",
+      "from": "Container5QhTc-IAk-O",
+      "sort": "a2"
+    },
+    "TextsLw4bxtmd_V": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "01."
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "500",
+        "justify-content": "center"
+      },
+      "uri": "std.Text",
+      "id": "TextsLw4bxtmd_V",
+      "from": "ContainerypoBvdr3hOb",
+      "sort": "a0"
+    },
+    "Container5fI4YFZIxtA": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "border-top": "2px solid #f8ff35",
+        "border-radius": "20px",
+        "background-color": "#3137d2",
+        "width": "120px",
+        "gap": "0px",
+        "flex-wrap": "nowrap",
+        "margin": "0px 15px 0px 15px ",
+        "height": "360px"
+      },
+      "uri": "std.Container",
+      "sort": "a3",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "01"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-weight": "500",
+            "justify-content": "center"
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        }
+      ],
+      "id": "Container5fI4YFZIxtA",
+      "from": "Container5QhTc-IAk-O"
+    },
+    "TextxzFPYtqXQV_": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "02."
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "500",
+        "justify-content": "center"
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "Container5fI4YFZIxtA.children",
+      "id": "TextxzFPYtqXQV_"
+    },
+    "ContaineriWYgjD-YsGC": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "border-top": "2px solid #f8ff35",
+        "border-radius": "20px",
+        "background-color": "#3137d2",
+        "width": "400px",
+        "gap": "0px",
+        "flex-wrap": "nowrap",
+        "margin": "0px 15px 0px 15px ",
+        "padding": "0px 50px 0px 50px ",
+        "height": "360px"
+      },
+      "uri": "std.Container",
+      "sort": "a4",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "01"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-weight": "500",
+            "justify-content": "center"
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        }
+      ],
+      "id": "ContaineriWYgjD-YsGC",
+      "from": "Container5QhTc-IAk-O"
+    },
+    "TextNJYvDUMTnb4": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "03."
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "500",
+        "justify-content": "start",
+        "font-size": "60px"
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "ContaineriWYgjD-YsGC.children",
+      "id": "TextNJYvDUMTnb4"
+    },
+    "ContainerITOYdt5ogvl": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "border-top": "2px solid #f8ff35",
+        "border-radius": "20px",
+        "background-color": "#3137d2",
+        "width": "120px",
+        "gap": "0px",
+        "flex-wrap": "nowrap",
+        "margin": "0px 15px 0px 15px ",
+        "height": "360px"
+      },
+      "uri": "std.Container",
+      "sort": "a5",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "01"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-weight": "500",
+            "justify-content": "center"
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        }
+      ],
+      "id": "ContainerITOYdt5ogvl",
+      "from": "Container5QhTc-IAk-O"
+    },
+    "TextFEhB9rv_CHc": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "04."
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "500",
+        "justify-content": "center"
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "ContainerITOYdt5ogvl.children",
+      "id": "TextFEhB9rv_CHc"
+    },
+    "TextZJ6_Io8vqse": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Live Security"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "font-size": "30px",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "500",
+        "margin": "85px 0px 0px 0px "
+      },
+      "uri": "std.Text",
+      "id": "TextZJ6_Io8vqse",
+      "from": "ContaineriWYgjD-YsGC",
+      "sort": "a1"
+    },
+    "Text4pnu0BmA2kX": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Blocks infected website tracking\nprograms and annoying."
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,0.8)",
+        "font-size": "17px"
+      },
+      "uri": "std.Text",
+      "id": "Text4pnu0BmA2kX",
+      "from": "ContaineriWYgjD-YsGC",
+      "sort": "a2"
+    },
+    "ContainerDYSNT20Ce3i": {
+      "type": "element",
+      "id": "ContainerDYSNT20Ce3i",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "auto",
+        "flex-direction": "column",
+        "justify-content": "center",
+        "align-items": "center",
+        "height": "auto"
+      },
+      "uri": "std.Container",
+      "from": "root",
+      "sort": "a7"
+    },
+    "ContainercUXZkOQNQbF": {
+      "type": "element",
+      "uri": "std.Container",
+      "styles": {
+        "flex-direction": "row",
+        "flex-basis": "auto",
+        "width": "1170px",
+        "justify-content": "center",
+        "align-items": "center",
+        "margin": "0px 0px 0px 0px "
+      },
+      "sort": "a0",
+      "children": [
+        {
+          "type": "element",
+          "uri": "std.Container",
+          "styles": {
+            "flex-basis": "auto",
+            "flex-direction": "column"
+          },
+          "sort": "a0",
+          "children": [
+            {
+              "type": "element",
+              "props": {
+                "heading": 2,
+                "type": "success",
+                "children": "What we offer"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "color": "#f8ff35",
+                "font-size": "14px"
+              },
+              "uri": "std.Text",
+              "sort": "a0"
+            },
+            {
+              "type": "element",
+              "props": {
+                "heading": 2,
+                "type": "success",
+                "children": "Our Platform"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "color": "rgba(255,255,255,1)",
+                "font-size": "60px",
+                "font-weight": "700"
+              },
+              "uri": "std.Text",
+              "sort": "a1"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "styles": {
+            "flex-basis": "auto",
+            "border-left": "1px solid rgba(255,255,255,0.1)",
+            "width": "420px",
+            "margin": "0px 0px 0px 300px "
+          },
+          "uri": "std.Container",
+          "sort": "a0V",
+          "children": [
+            {
+              "type": "element",
+              "props": {
+                "heading": 2,
+                "type": "success",
+                "children": "Explore how Avalance can help you toassess security\ncontrols continuously."
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "color": "rgba(255,255,255,1)",
+                "font-size": "17px",
+                "margin": "0px 0px 0px 20px "
+              },
+              "uri": "std.Text",
+              "sort": "a0"
+            }
+          ]
+        }
+      ],
+      "id": "ContainercUXZkOQNQbF",
+      "from": "ContainerDYSNT20Ce3i"
+    },
+    "ContainerTIn5-lqsuqD": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "border-left": "1px solid rgba(255,255,255,0.1)",
+        "width": "420px",
+        "margin": "0px 0px 0px 300px "
+      },
+      "uri": "std.Container",
+      "sort": "a0V",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Explore how Avalance can help you toassess security\ncontrols continuously."
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "17px",
+            "margin": "0px 0px 0px 20px "
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        }
+      ],
+      "from": "ContainercUXZkOQNQbF.children",
+      "id": "ContainerTIn5-lqsuqD"
+    },
+    "Text5N2RhdVLUb_": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Our clients are the companies and startups who\nmake the world go round,!"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "17px",
+        "margin": "0px 0px 0px 20px "
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "ContainerTIn5-lqsuqD.children",
+      "id": "Text5N2RhdVLUb_"
+    },
+    "Container2_-LcKDvBVK": {
+      "type": "element",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "column"
+      },
+      "sort": "a0",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "What we offer"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "#f8ff35",
+            "font-size": "14px"
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Our Platform"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "60px",
+            "font-weight": "700"
+          },
+          "uri": "std.Text",
+          "sort": "a1"
+        }
+      ],
+      "from": "ContainercUXZkOQNQbF.children",
+      "id": "Container2_-LcKDvBVK"
+    },
+    "TextrmHMYFTT9wG": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Our Leaders"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "60px",
+        "font-weight": "700"
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "from": "Container2_-LcKDvBVK.children",
+      "id": "TextrmHMYFTT9wG"
+    },
+    "TextiSBfLDIys5_": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "THE TEAM"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "#f8ff35",
+        "font-size": "14px",
+        "font-weight": "500"
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "Container2_-LcKDvBVK.children",
+      "id": "TextiSBfLDIys5_"
+    },
+    "ContainernVaH0mFDRcs": {
+      "type": "element",
+      "id": "ContainernVaH0mFDRcs",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "1170px",
+        "flex-direction": "row"
+      },
+      "uri": "std.Container",
+      "from": "ContainerDYSNT20Ce3i",
+      "sort": "a1"
+    },
+    "ContainerHf0YFJd0M2T": {
+      "type": "element",
+      "id": "ContainerHf0YFJd0M2T",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "300px",
+        "justify-content": "center",
+        "align-items": "center",
+        "padding": "50px",
+        "border-right": "1px solid rgba(255,255,255,0.1)"
+      },
+      "uri": "std.Container",
+      "from": "ContainernVaH0mFDRcs",
+      "sort": "a0"
+    },
+    "Imagev_4Qc4zALTb": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/aptMrShTfHQ"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "180px",
+        "height": "180px"
+      },
+      "uri": "std.Image",
+      "id": "Imagev_4Qc4zALTb",
+      "from": "ContainerHf0YFJd0M2T",
+      "sort": "a0"
+    },
+    "Text-wHDwHD0mkh": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Imdat Cimsit"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "500",
+        "font-size": "22px",
+        "line-height": "26px",
+        "margin": "25px 0px 0px 0px "
+      },
+      "uri": "std.Text",
+      "id": "Text-wHDwHD0mkh",
+      "from": "ContainerHf0YFJd0M2T",
+      "sort": "a1"
+    },
+    "TextGXbX_Q7ZGCu": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Imdat Cimsit"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "500",
+        "font-size": "14px",
+        "text-align": "center",
+        "line-height": "14px"
+      },
+      "uri": "std.Text",
+      "sort": "a2",
+      "id": "TextGXbX_Q7ZGCu",
+      "from": "ContainerHf0YFJd0M2T"
+    },
+    "ContainerEEzd1JnUAD2": {
+      "type": "element",
+      "id": "ContainerEEzd1JnUAD2",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "margin": "45px 0px 0px 0px "
+      },
+      "uri": "std.Container",
+      "from": "ContainerHf0YFJd0M2T",
+      "sort": "a2V"
+    },
+    "Image5WqtjLXn4DA": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/vucn7zfDaeu"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "8px",
+        "height": "15px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "id": "Image5WqtjLXn4DA",
+      "from": "ContainerEEzd1JnUAD2",
+      "sort": "a0"
+    },
+    "Imagel8fv2p_Qz-q": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/5XMH-0MA-cw"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "15px",
+        "height": "15px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a1",
+      "id": "Imagel8fv2p_Qz-q",
+      "from": "ContainerEEzd1JnUAD2"
+    },
+    "ImagepEkoeLtH_kA": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/qswtfoyYADj"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "15px",
+        "height": "12px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a0V",
+      "id": "ImagepEkoeLtH_kA",
+      "from": "ContainerEEzd1JnUAD2"
+    },
+    "Image-sF-dDfiIAs": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/RFIOcFE70uF"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "13px",
+        "height": "13px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a2",
+      "id": "Image-sF-dDfiIAs",
+      "from": "ContainerEEzd1JnUAD2"
+    },
+    "ContaineruisMv2K6X9b": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "300px",
+        "justify-content": "center",
+        "align-items": "center",
+        "flex-direction": null,
+        "padding": "50px",
+        "border-right": "1px solid rgba(255,255,255,0.1)"
+      },
+      "uri": "std.Container",
+      "sort": "a1",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/aptMrShTfHQ"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "180px",
+            "height": "180px"
+          },
+          "uri": "std.Image",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Imdat Cimsit"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-weight": "500",
+            "font-size": "22px",
+            "line-height": "26px",
+            "margin": "25px 0px 0px 0px "
+          },
+          "uri": "std.Text",
+          "sort": "a1"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Imdat Cimsit"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-weight": "500",
+            "font-size": "14px",
+            "text-align": "center",
+            "line-height": "14px"
+          },
+          "uri": "std.Text",
+          "sort": "a2"
+        },
+        {
+          "type": "element",
+          "styles": {
+            "flex-basis": "auto",
+            "flex-direction": "row",
+            "margin": "45px 0px 0px 0px "
+          },
+          "uri": "std.Container",
+          "sort": "a2V",
+          "children": [
+            {
+              "type": "element",
+              "props": {
+                "width": 400,
+                "height": 400,
+                "src": "https://assets.deamoy.com/vucn7zfDaeu"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "width": "8px",
+                "height": "15px",
+                "margin": "10px"
+              },
+              "uri": "std.Image",
+              "sort": "a0"
+            },
+            {
+              "type": "element",
+              "props": {
+                "width": 400,
+                "height": 400,
+                "src": "https://assets.deamoy.com/qswtfoyYADj"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "width": "15px",
+                "height": "12px",
+                "margin": "10px"
+              },
+              "uri": "std.Image",
+              "sort": "a0V"
+            },
+            {
+              "type": "element",
+              "props": {
+                "width": 400,
+                "height": 400,
+                "src": "https://assets.deamoy.com/5XMH-0MA-cw"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "width": "15px",
+                "height": "15px",
+                "margin": "10px"
+              },
+              "uri": "std.Image",
+              "sort": "a1"
+            },
+            {
+              "type": "element",
+              "props": {
+                "width": 400,
+                "height": 400,
+                "src": "https://assets.deamoy.com/RFIOcFE70uF"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "width": "13px",
+                "height": "13px",
+                "margin": "10px"
+              },
+              "uri": "std.Image",
+              "sort": "a2"
+            }
+          ]
+        }
+      ],
+      "id": "ContaineruisMv2K6X9b",
+      "from": "ContainernVaH0mFDRcs"
+    },
+    "Container0bGstxxEJCn": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "margin": "45px 0px 0px 0px "
+      },
+      "uri": "std.Container",
+      "sort": "a2V",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/vucn7zfDaeu"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "8px",
+            "height": "15px",
+            "margin": "10px"
+          },
+          "uri": "std.Image",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/qswtfoyYADj"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "15px",
+            "height": "12px",
+            "margin": "10px"
+          },
+          "uri": "std.Image",
+          "sort": "a0V"
+        },
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/5XMH-0MA-cw"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "15px",
+            "height": "15px",
+            "margin": "10px"
+          },
+          "uri": "std.Image",
+          "sort": "a1"
+        },
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/RFIOcFE70uF"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "13px",
+            "height": "13px",
+            "margin": "10px"
+          },
+          "uri": "std.Image",
+          "sort": "a2"
+        }
+      ],
+      "from": "ContaineruisMv2K6X9b.children",
+      "id": "Container0bGstxxEJCn"
+    },
+    "ImageIpG7EZnLe5X": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/RFIOcFE70uF"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "13px",
+        "height": "13px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a2",
+      "from": "Container0bGstxxEJCn.children",
+      "id": "ImageIpG7EZnLe5X"
+    },
+    "ImageFiYgeVI2j4Y": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/5XMH-0MA-cw"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "15px",
+        "height": "15px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a1",
+      "from": "Container0bGstxxEJCn.children",
+      "id": "ImageFiYgeVI2j4Y"
+    },
+    "ImageYMeOYQ2qg-P": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/qswtfoyYADj"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "15px",
+        "height": "12px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a0V",
+      "from": "Container0bGstxxEJCn.children",
+      "id": "ImageYMeOYQ2qg-P"
+    },
+    "ImagevhMOk1vFEyp": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/vucn7zfDaeu"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "8px",
+        "height": "15px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a0",
+      "from": "Container0bGstxxEJCn.children",
+      "id": "ImagevhMOk1vFEyp"
+    },
+    "TextoKGByYSFpwa": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Partner & COO"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "500",
+        "font-size": "14px",
+        "text-align": "center",
+        "line-height": "14px"
+      },
+      "uri": "std.Text",
+      "sort": "a2",
+      "from": "ContaineruisMv2K6X9b.children",
+      "id": "TextoKGByYSFpwa"
+    },
+    "Textnb4iKVT2DU8": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Alexa Montes\n"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "500",
+        "font-size": "22px",
+        "line-height": "26px",
+        "margin": "25px 0px 0px 0px "
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "from": "ContaineruisMv2K6X9b.children",
+      "id": "Textnb4iKVT2DU8"
+    },
+    "Imagegoj5NVsCjMV": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/a1abhmHslPf"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "180px",
+        "height": "180px"
+      },
+      "uri": "std.Image",
+      "sort": "a0",
+      "from": "ContaineruisMv2K6X9b.children",
+      "id": "Imagegoj5NVsCjMV"
+    },
+    "ContainerigUbm769v9C": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "300px",
+        "justify-content": "center",
+        "align-items": "center",
+        "flex-direction": null,
+        "padding": "50px",
+        "border-right": "1px solid rgba(255,255,255,0.1)"
+      },
+      "uri": "std.Container",
+      "sort": "a2",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/aptMrShTfHQ"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "180px",
+            "height": "180px"
+          },
+          "uri": "std.Image",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Imdat Cimsit"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-weight": "500",
+            "font-size": "22px",
+            "line-height": "26px",
+            "margin": "25px 0px 0px 0px "
+          },
+          "uri": "std.Text",
+          "sort": "a1"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Imdat Cimsit"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-weight": "500",
+            "font-size": "14px",
+            "text-align": "center",
+            "line-height": "14px"
+          },
+          "uri": "std.Text",
+          "sort": "a2"
+        },
+        {
+          "type": "element",
+          "styles": {
+            "flex-basis": "auto",
+            "flex-direction": "row",
+            "margin": "45px 0px 0px 0px "
+          },
+          "uri": "std.Container",
+          "sort": "a2V",
+          "children": [
+            {
+              "type": "element",
+              "props": {
+                "width": 400,
+                "height": 400,
+                "src": "https://assets.deamoy.com/vucn7zfDaeu"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "width": "8px",
+                "height": "15px",
+                "margin": "10px"
+              },
+              "uri": "std.Image",
+              "sort": "a0"
+            },
+            {
+              "type": "element",
+              "props": {
+                "width": 400,
+                "height": 400,
+                "src": "https://assets.deamoy.com/qswtfoyYADj"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "width": "15px",
+                "height": "12px",
+                "margin": "10px"
+              },
+              "uri": "std.Image",
+              "sort": "a0V"
+            },
+            {
+              "type": "element",
+              "props": {
+                "width": 400,
+                "height": 400,
+                "src": "https://assets.deamoy.com/5XMH-0MA-cw"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "width": "15px",
+                "height": "15px",
+                "margin": "10px"
+              },
+              "uri": "std.Image",
+              "sort": "a1"
+            },
+            {
+              "type": "element",
+              "props": {
+                "width": 400,
+                "height": 400,
+                "src": "https://assets.deamoy.com/RFIOcFE70uF"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "width": "13px",
+                "height": "13px",
+                "margin": "10px"
+              },
+              "uri": "std.Image",
+              "sort": "a2"
+            }
+          ]
+        }
+      ],
+      "id": "ContainerigUbm769v9C",
+      "from": "ContainernVaH0mFDRcs"
+    },
+    "ContainervHE5SNXEYbK": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "margin": "45px 0px 0px 0px "
+      },
+      "uri": "std.Container",
+      "sort": "a2V",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/vucn7zfDaeu"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "8px",
+            "height": "15px",
+            "margin": "10px"
+          },
+          "uri": "std.Image",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/qswtfoyYADj"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "15px",
+            "height": "12px",
+            "margin": "10px"
+          },
+          "uri": "std.Image",
+          "sort": "a0V"
+        },
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/5XMH-0MA-cw"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "15px",
+            "height": "15px",
+            "margin": "10px"
+          },
+          "uri": "std.Image",
+          "sort": "a1"
+        },
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/RFIOcFE70uF"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "13px",
+            "height": "13px",
+            "margin": "10px"
+          },
+          "uri": "std.Image",
+          "sort": "a2"
+        }
+      ],
+      "from": "ContainerigUbm769v9C.children",
+      "id": "ContainervHE5SNXEYbK"
+    },
+    "ImageNU2_h1B7l9B": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/RFIOcFE70uF"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "13px",
+        "height": "13px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a2",
+      "from": "ContainervHE5SNXEYbK.children",
+      "id": "ImageNU2_h1B7l9B"
+    },
+    "ImageDg_cHE1WPnA": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/5XMH-0MA-cw"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "15px",
+        "height": "15px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a1",
+      "from": "ContainervHE5SNXEYbK.children",
+      "id": "ImageDg_cHE1WPnA"
+    },
+    "ImageGx4oOfJLB-x": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/qswtfoyYADj"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "15px",
+        "height": "12px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a0V",
+      "from": "ContainervHE5SNXEYbK.children",
+      "id": "ImageGx4oOfJLB-x"
+    },
+    "Image3wFGbUVVxxW": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/vucn7zfDaeu"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "8px",
+        "height": "15px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a0",
+      "from": "ContainervHE5SNXEYbK.children",
+      "id": "Image3wFGbUVVxxW"
+    },
+    "TextPcxqDC3Ffvi": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Designer"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "500",
+        "font-size": "14px",
+        "text-align": "center",
+        "line-height": "14px"
+      },
+      "uri": "std.Text",
+      "sort": "a2",
+      "from": "ContainerigUbm769v9C.children",
+      "id": "TextPcxqDC3Ffvi"
+    },
+    "Text2TpkFq0CA8o": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Ravi Ganatra\n"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "500",
+        "font-size": "22px",
+        "line-height": "26px",
+        "margin": "25px 0px 0px 0px "
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "from": "ContainerigUbm769v9C.children",
+      "id": "Text2TpkFq0CA8o"
+    },
+    "Image8ts9EcfFj3K": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/u6XGtS453nv"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "180px",
+        "height": "180px"
+      },
+      "uri": "std.Image",
+      "sort": "a0",
+      "from": "ContainerigUbm769v9C.children",
+      "id": "Image8ts9EcfFj3K"
+    },
+    "ContainergMRRvgU8akb": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "300px",
+        "justify-content": "center",
+        "align-items": "center",
+        "flex-direction": null,
+        "padding": "50px",
+        "border-right": "1px solid rgba(255,255,255,0.1)"
+      },
+      "uri": "std.Container",
+      "sort": "a3",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/aptMrShTfHQ"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "180px",
+            "height": "180px"
+          },
+          "uri": "std.Image",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Imdat Cimsit"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-weight": "500",
+            "font-size": "22px",
+            "line-height": "26px",
+            "margin": "25px 0px 0px 0px "
+          },
+          "uri": "std.Text",
+          "sort": "a1"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Imdat Cimsit"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-weight": "500",
+            "font-size": "14px",
+            "text-align": "center",
+            "line-height": "14px"
+          },
+          "uri": "std.Text",
+          "sort": "a2"
+        },
+        {
+          "type": "element",
+          "styles": {
+            "flex-basis": "auto",
+            "flex-direction": "row",
+            "margin": "45px 0px 0px 0px "
+          },
+          "uri": "std.Container",
+          "sort": "a2V",
+          "children": [
+            {
+              "type": "element",
+              "props": {
+                "width": 400,
+                "height": 400,
+                "src": "https://assets.deamoy.com/vucn7zfDaeu"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "width": "8px",
+                "height": "15px",
+                "margin": "10px"
+              },
+              "uri": "std.Image",
+              "sort": "a0"
+            },
+            {
+              "type": "element",
+              "props": {
+                "width": 400,
+                "height": 400,
+                "src": "https://assets.deamoy.com/qswtfoyYADj"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "width": "15px",
+                "height": "12px",
+                "margin": "10px"
+              },
+              "uri": "std.Image",
+              "sort": "a0V"
+            },
+            {
+              "type": "element",
+              "props": {
+                "width": 400,
+                "height": 400,
+                "src": "https://assets.deamoy.com/5XMH-0MA-cw"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "width": "15px",
+                "height": "15px",
+                "margin": "10px"
+              },
+              "uri": "std.Image",
+              "sort": "a1"
+            },
+            {
+              "type": "element",
+              "props": {
+                "width": 400,
+                "height": 400,
+                "src": "https://assets.deamoy.com/RFIOcFE70uF"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "width": "13px",
+                "height": "13px",
+                "margin": "10px"
+              },
+              "uri": "std.Image",
+              "sort": "a2"
+            }
+          ]
+        }
+      ],
+      "id": "ContainergMRRvgU8akb",
+      "from": "ContainernVaH0mFDRcs"
+    },
+    "ContainerWzYC1ttXz-t": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "margin": "45px 0px 0px 0px "
+      },
+      "uri": "std.Container",
+      "sort": "a2V",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/vucn7zfDaeu"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "8px",
+            "height": "15px",
+            "margin": "10px"
+          },
+          "uri": "std.Image",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/qswtfoyYADj"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "15px",
+            "height": "12px",
+            "margin": "10px"
+          },
+          "uri": "std.Image",
+          "sort": "a0V"
+        },
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/5XMH-0MA-cw"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "15px",
+            "height": "15px",
+            "margin": "10px"
+          },
+          "uri": "std.Image",
+          "sort": "a1"
+        },
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/RFIOcFE70uF"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "13px",
+            "height": "13px",
+            "margin": "10px"
+          },
+          "uri": "std.Image",
+          "sort": "a2"
+        }
+      ],
+      "from": "ContainergMRRvgU8akb.children",
+      "id": "ContainerWzYC1ttXz-t"
+    },
+    "ImageyS7zqh1vtTK": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/RFIOcFE70uF"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "13px",
+        "height": "13px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a2",
+      "from": "ContainerWzYC1ttXz-t.children",
+      "id": "ImageyS7zqh1vtTK"
+    },
+    "Image2dtdkZr7Sng": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/5XMH-0MA-cw"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "15px",
+        "height": "15px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a1",
+      "from": "ContainerWzYC1ttXz-t.children",
+      "id": "Image2dtdkZr7Sng"
+    },
+    "Image3lG5DauXSWq": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/qswtfoyYADj"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "15px",
+        "height": "12px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a0V",
+      "from": "ContainerWzYC1ttXz-t.children",
+      "id": "Image3lG5DauXSWq"
+    },
+    "ImageRj0G2BMHBYz": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/vucn7zfDaeu"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "8px",
+        "height": "15px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a0",
+      "from": "ContainerWzYC1ttXz-t.children",
+      "id": "ImageRj0G2BMHBYz"
+    },
+    "TextLvBU1NU5orO": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "PHP Developer"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "500",
+        "font-size": "14px",
+        "text-align": "center",
+        "line-height": "14px"
+      },
+      "uri": "std.Text",
+      "sort": "a2",
+      "from": "ContainergMRRvgU8akb.children",
+      "id": "TextLvBU1NU5orO"
+    },
+    "Text75TFcHK3sCG": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Imdat Cimsit"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "500",
+        "font-size": "22px",
+        "line-height": "26px",
+        "margin": "25px 0px 0px 0px "
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "from": "ContainergMRRvgU8akb.children",
+      "id": "Text75TFcHK3sCG"
+    },
+    "Image1nyQ310r5E_": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/aptMrShTfHQ"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "180px",
+        "height": "180px"
+      },
+      "uri": "std.Image",
+      "sort": "a0",
+      "from": "ContainergMRRvgU8akb.children",
+      "id": "Image1nyQ310r5E_"
+    },
+    "Containeru9XbHIYmNVt": {
+      "type": "element",
+      "id": "Containeru9XbHIYmNVt",
+      "styles": {
+        "flex-basis": "auto",
+        "background-color": null,
+        "background-image": "url(https://assets.deamoy.com/78eCmlaiYFe)",
+        "background-size": "auto auto",
+        "background-position": "center center",
+        "background-repeat": "no-repeat",
+        "background-attachment": "scroll",
+        "width": "1920px",
+        "height": "230px",
+        "margin": "40px 0px 0px 0px ",
+        "flex-direction": "row",
+        "justify-content": "center",
+        "align-items": "start"
+      },
+      "uri": "std.Container",
+      "from": "ContainerGSJfW00ThWQ",
+      "sort": "a1"
+    },
+    "ContainerGSJfW00ThWQ": {
+      "type": "element",
+      "id": "ContainerGSJfW00ThWQ",
+      "styles": {
+        "flex-basis": "auto",
+        "justify-content": "center",
+        "align-items": "center",
+        "width": "1920px",
+        "margin": "150px 0px 0px 0px "
+      },
+      "uri": "std.Container",
+      "from": "root",
+      "sort": "a7V"
+    },
+    "ContainerCHJI8ZBCTbk": {
+      "type": "element",
+      "id": "ContainerCHJI8ZBCTbk",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "500px"
+      },
+      "uri": "std.Container",
+      "from": "ContainerGSJfW00ThWQ",
+      "sort": "a0"
+    },
+    "TextTwZ1H-tp2Z6": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Explore Our Level"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "#f8ff35",
+        "font-size": "14px",
+        "text-align": "center",
+        "justify-content": "center",
+        "align-items": "center",
+        "font-weight": "500"
+      },
+      "uri": "std.Text",
+      "id": "TextTwZ1H-tp2Z6",
+      "from": "ContainerCHJI8ZBCTbk",
+      "sort": "a0"
+    },
+    "TextVvtx15dnSlX": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Security by Industry"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "700",
+        "font-size": "50px",
+        "text-align": "center",
+        "justify-content": "center",
+        "align-items": "center"
+      },
+      "uri": "std.Text",
+      "id": "TextVvtx15dnSlX",
+      "from": "ContainerCHJI8ZBCTbk",
+      "sort": "a1"
+    },
+    "Container8QpNngvGO6t": {
+      "type": "element",
+      "id": "Container8QpNngvGO6t",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "width": "354px",
+        "height": "110px",
+        "border-radius": "50px",
+        "color": "#a7b1bd",
+        "background-color": "#3137d2",
+        "border-left": "2px solid #f8ff35",
+        "justify-content": "center",
+        "align-items": "center",
+        "margin": "60px 12px 0px 12px "
+      },
+      "uri": "std.Container",
+      "from": "Containeru9XbHIYmNVt",
+      "sort": "a0"
+    },
+    "ImageEp8esUaqEPT": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/E8_1Z0MU30A"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "60px",
+        "height": "61px"
+      },
+      "uri": "std.Image",
+      "id": "ImageEp8esUaqEPT",
+      "from": "Container8QpNngvGO6t",
+      "sort": "a0"
+    },
+    "Text16F--tPRYPw": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Business\nSecurity"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "width": "94px",
+        "margin": "0px 100px 0px 20px "
+      },
+      "uri": "std.Text",
+      "id": "Text16F--tPRYPw",
+      "from": "Container8QpNngvGO6t",
+      "sort": "a1"
+    },
+    "ImageW5NwHJd3Fgj": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/sqTOYFWg2IW"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "8px",
+        "height": "16px",
+        "justify-content": "start"
+      },
+      "uri": "std.Image",
+      "id": "ImageW5NwHJd3Fgj",
+      "from": "Container8QpNngvGO6t",
+      "sort": "a2"
+    },
+    "Containerr3gpwdEJhHO": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "width": "354px",
+        "height": "110px",
+        "border-radius": "50px",
+        "color": "#a7b1bd",
+        "background-color": "#f8ff35",
+        "border-left": "2px solid #f8ff35",
+        "justify-content": "center",
+        "align-items": "center",
+        "margin": "60px 12px 0px 12px "
+      },
+      "uri": "std.Container",
+      "sort": "a1",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/E8_1Z0MU30A"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "60px",
+            "height": "61px"
+          },
+          "uri": "std.Image",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Business\nSecurity"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "width": "94px",
+            "margin": "0px 100px 0px 20px "
+          },
+          "uri": "std.Text",
+          "sort": "a1"
+        },
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/sqTOYFWg2IW"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "8px",
+            "height": "16px",
+            "justify-content": "start"
+          },
+          "uri": "std.Image",
+          "sort": "a2"
+        }
+      ],
+      "id": "Containerr3gpwdEJhHO",
+      "from": "Containeru9XbHIYmNVt"
+    },
+    "ImageqpZL_VnikG2": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/fCRC1EgSbWV"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "8px",
+        "height": "16px",
+        "justify-content": "start"
+      },
+      "uri": "std.Image",
+      "sort": "a2",
+      "from": "Containerr3gpwdEJhHO.children",
+      "id": "ImageqpZL_VnikG2"
+    },
+    "Text1r4zNLiFVt3": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Education\nSecurity"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "#1117a0",
+        "width": "94px",
+        "margin": "0px 100px 0px 20px "
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "from": "Containerr3gpwdEJhHO.children",
+      "id": "Text1r4zNLiFVt3"
+    },
+    "Image9CDexQ2Q7NH": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/VrzBqfZA_Ox"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "80px",
+        "height": "61px"
+      },
+      "uri": "std.Image",
+      "sort": "a0",
+      "from": "Containerr3gpwdEJhHO.children",
+      "id": "Image9CDexQ2Q7NH"
+    },
+    "ContainerHMTR06SiBFu": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "width": "354px",
+        "height": "110px",
+        "border-radius": "50px",
+        "color": "#a7b1bd",
+        "background-color": "#3137d2",
+        "border-left": "2px solid #f8ff35",
+        "justify-content": "center",
+        "align-items": "center",
+        "margin": "60px 12px 0px 12px "
+      },
+      "uri": "std.Container",
+      "sort": "a2",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/E8_1Z0MU30A"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "60px",
+            "height": "61px"
+          },
+          "uri": "std.Image",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Business\nSecurity"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "width": "94px",
+            "margin": "0px 100px 0px 20px "
+          },
+          "uri": "std.Text",
+          "sort": "a1"
+        },
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/sqTOYFWg2IW"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "8px",
+            "height": "16px",
+            "justify-content": "start"
+          },
+          "uri": "std.Image",
+          "sort": "a2"
+        }
+      ],
+      "id": "ContainerHMTR06SiBFu",
+      "from": "Containeru9XbHIYmNVt"
+    },
+    "ImageB5eEfmq0_Ld": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/sqTOYFWg2IW"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "8px",
+        "height": "16px",
+        "justify-content": "start"
+      },
+      "uri": "std.Image",
+      "sort": "a2",
+      "from": "ContainerHMTR06SiBFu.children",
+      "id": "ImageB5eEfmq0_Ld"
+    },
+    "TextHOHlpZmTaVD": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Food\n& Beverage"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "width": "94px",
+        "margin": "0px 100px 0px 20px "
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "from": "ContainerHMTR06SiBFu.children",
+      "id": "TextHOHlpZmTaVD"
+    },
+    "Imageoefe0jNH-gX": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/g79K9SjezqT"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "74px",
+        "height": "66px"
+      },
+      "uri": "std.Image",
+      "sort": "a0",
+      "from": "ContainerHMTR06SiBFu.children",
+      "id": "Imageoefe0jNH-gX"
+    },
+    "ContainerOA-LeOtR1Yq": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "width": "354px",
+        "height": "110px",
+        "border-radius": "50px",
+        "color": "#a7b1bd",
+        "background-color": "#3137d2",
+        "border-left": "2px solid #f8ff35",
+        "justify-content": "center",
+        "align-items": "center",
+        "margin": "60px 12px 0px 12px "
+      },
+      "uri": "std.Container",
+      "sort": "a3",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/E8_1Z0MU30A"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "60px",
+            "height": "61px"
+          },
+          "uri": "std.Image",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Business\nSecurity"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "width": "94px",
+            "margin": "0px 100px 0px 20px "
+          },
+          "uri": "std.Text",
+          "sort": "a1"
+        },
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/sqTOYFWg2IW"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "8px",
+            "height": "16px",
+            "justify-content": "start"
+          },
+          "uri": "std.Image",
+          "sort": "a2"
+        }
+      ],
+      "id": "ContainerOA-LeOtR1Yq",
+      "from": "Containeru9XbHIYmNVt"
+    },
+    "ImagejP7oqPigVdI": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/sqTOYFWg2IW"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "8px",
+        "height": "16px",
+        "justify-content": "start"
+      },
+      "uri": "std.Image",
+      "sort": "a2",
+      "from": "ContainerOA-LeOtR1Yq.children",
+      "id": "ImagejP7oqPigVdI"
+    },
+    "Text-bhgCCHpU-5": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Media &\nEntertainment"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "width": "94px",
+        "margin": "0px 100px 0px 20px "
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "from": "ContainerOA-LeOtR1Yq.children",
+      "id": "Text-bhgCCHpU-5"
+    },
+    "ImageraqoKx5g7HB": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/rB9sAPsMUTq"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "80px",
+        "height": "61px"
+      },
+      "uri": "std.Image",
+      "sort": "a0",
+      "from": "ContainerOA-LeOtR1Yq.children",
+      "id": "ImageraqoKx5g7HB"
+    },
+    "ContainerMjWFTVoZDHr": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "width": "354px",
+        "height": "110px",
+        "border-radius": "50px",
+        "color": "#a7b1bd",
+        "background-color": "#3137d2",
+        "border-left": "2px solid #f8ff35",
+        "justify-content": "center",
+        "align-items": "center",
+        "margin": "60px 12px 0px 12px "
+      },
+      "uri": "std.Container",
+      "sort": "a4",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/E8_1Z0MU30A"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "60px",
+            "height": "61px"
+          },
+          "uri": "std.Image",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Business\nSecurity"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "width": "94px",
+            "margin": "0px 100px 0px 20px "
+          },
+          "uri": "std.Text",
+          "sort": "a1"
+        },
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/sqTOYFWg2IW"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "8px",
+            "height": "16px",
+            "justify-content": "start"
+          },
+          "uri": "std.Image",
+          "sort": "a2"
+        }
+      ],
+      "id": "ContainerMjWFTVoZDHr",
+      "from": "Containeru9XbHIYmNVt"
+    },
+    "ImageZDcn3_eLCXy": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/sqTOYFWg2IW"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "8px",
+        "height": "16px",
+        "justify-content": "start"
+      },
+      "uri": "std.Image",
+      "sort": "a2",
+      "from": "ContainerMjWFTVoZDHr.children",
+      "id": "ImageZDcn3_eLCXy"
+    },
+    "TextQ6hq6pjRyBp": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Business\nSecurity"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "width": "94px",
+        "margin": "0px 100px 0px 20px "
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "from": "ContainerMjWFTVoZDHr.children",
+      "id": "TextQ6hq6pjRyBp"
+    },
+    "Image-7mBjeeFOJ7": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/E8_1Z0MU30A"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "60px",
+        "height": "61px"
+      },
+      "uri": "std.Image",
+      "sort": "a0",
+      "from": "ContainerMjWFTVoZDHr.children",
+      "id": "Image-7mBjeeFOJ7"
+    },
+    "ContainerVtGD2r4_BQ5": {
+      "type": "element",
+      "id": "ContainerVtGD2r4_BQ5",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "column",
+        "justify-content": "center",
+        "align-items": "center",
+        "margin": "120px 0px 0px 0px ",
+        "height": "auto"
+      },
+      "uri": "std.Container",
+      "from": "root",
+      "sort": "a8"
+    },
+    "ContainerTG4x3E4J_CC": {
+      "type": "element",
+      "id": "ContainerTG4x3E4J_CC",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "1175px",
+        "flex-direction": "row"
+      },
+      "uri": "std.Container",
+      "from": "ContainerVtGD2r4_BQ5",
+      "sort": "a0"
+    },
+    "ContainerIRrSzwgihVK": {
+      "type": "element",
+      "id": "ContainerIRrSzwgihVK",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "500px",
+        "flex-direction": "column",
+        "margin": "0px 500px 0px 0px "
+      },
+      "uri": "std.Container",
+      "from": "ContainerTG4x3E4J_CC",
+      "sort": "a0"
+    },
+    "TextpOGZFCSXRUV": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "News Feeds"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "#f8ff35",
+        "font-size": "14px"
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "id": "TextpOGZFCSXRUV",
+      "from": "ContainerIRrSzwgihVK"
+    },
+    "TextVIlfDotKAfU": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Blog & Insights"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "60px",
+        "font-weight": "700"
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "id": "TextVIlfDotKAfU",
+      "from": "ContainerIRrSzwgihVK"
+    },
+    "ContainergDuQSr0J9pw": {
+      "type": "element",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "justify-content": "start"
+      },
+      "sort": "a0V",
+      "children": [
+        {
+          "type": "element",
+          "uri": "std.Container",
+          "styles": {
+            "flex-basis": "auto",
+            "flex-direction": "row",
+            "margin": "40px 0px 0px 0px "
+          },
+          "sort": "a0",
+          "children": [
+            {
+              "type": "element",
+              "props": {
+                "theme": "solid",
+                "type": "primary",
+                "children": "About Us"
+              },
+              "styles": {
+                "justify-content": "start",
+                "flex-basis": "auto",
+                "border-radius": "30px 0px 0px 30px ",
+                "height": "0px",
+                "width": "130px",
+                "background-color": "unset",
+                "border": "1px solid #f8ff35",
+                "padding": "25px",
+                "font-size": "16px",
+                "color": "#f8ff35",
+                "margin": "0px 0px 0px 0px "
+              },
+              "uri": "std.Button",
+              "sort": "a0"
+            },
+            {
+              "type": "element",
+              "props": {
+                "theme": "solid",
+                "type": "primary",
+                "children": ">"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "border-radius": "0px 30px 30px 0px ",
+                "height": "0px",
+                "width": "10px",
+                "background-color": "#f8ff35",
+                "border": "1px solid #f8ff35",
+                "padding": "25px",
+                "font-size": "16px",
+                "color": "rgba(0,0,0,1)",
+                "margin": "0px 0px 0px 0px ",
+                "font-family": "Hiragino Sans GB"
+              },
+              "uri": "std.Button",
+              "sort": "a1"
+            }
+          ]
+        }
+      ],
+      "id": "ContainergDuQSr0J9pw",
+      "from": "ContainerTG4x3E4J_CC"
+    },
+    "Container_r76wXPn00z": {
+      "type": "element",
+      "uri": "std.Container",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "margin": "40px 0px 0px 0px "
+      },
+      "sort": "a0",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "theme": "solid",
+            "type": "primary",
+            "children": "About Us"
+          },
+          "styles": {
+            "justify-content": "start",
+            "flex-basis": "auto",
+            "border-radius": "30px 0px 0px 30px ",
+            "height": "0px",
+            "width": "130px",
+            "background-color": "unset",
+            "border": "1px solid #f8ff35",
+            "padding": "25px",
+            "font-size": "16px",
+            "color": "#f8ff35",
+            "margin": "0px 0px 0px 0px "
+          },
+          "uri": "std.Button",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "theme": "solid",
+            "type": "primary",
+            "children": ">"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "border-radius": "0px 30px 30px 0px ",
+            "height": "0px",
+            "width": "10px",
+            "background-color": "#f8ff35",
+            "border": "1px solid #f8ff35",
+            "padding": "25px",
+            "font-size": "16px",
+            "color": "rgba(0,0,0,1)",
+            "margin": "0px 0px 0px 0px ",
+            "font-family": "Hiragino Sans GB"
+          },
+          "uri": "std.Button",
+          "sort": "a1"
+        }
+      ],
+      "from": "ContainergDuQSr0J9pw.children",
+      "id": "Container_r76wXPn00z"
+    },
+    "ButtonE4mx3PG4lrF": {
+      "type": "element",
+      "props": {
+        "theme": "solid",
+        "type": "primary",
+        "children": ">"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "border-radius": "0px 30px 30px 0px ",
+        "height": "0px",
+        "width": "10px",
+        "background-color": "#f8ff35",
+        "border": "1px solid #f8ff35",
+        "padding": "25px",
+        "font-size": "16px",
+        "color": "rgba(0,0,0,1)",
+        "margin": "0px 0px 0px 0px ",
+        "font-family": "Hiragino Sans GB"
+      },
+      "uri": "std.Button",
+      "sort": "a1",
+      "from": "Container_r76wXPn00z.children",
+      "id": "ButtonE4mx3PG4lrF"
+    },
+    "ButtonBqRu233-yQ0": {
+      "type": "element",
+      "props": {
+        "theme": "solid",
+        "type": "primary",
+        "children": "Show More"
+      },
+      "styles": {
+        "justify-content": "start",
+        "flex-basis": "auto",
+        "border-radius": "30px 0px 0px 30px ",
+        "height": "0px",
+        "width": "140px",
+        "background-color": "unset",
+        "border": "1px solid #f8ff35",
+        "padding": "25px",
+        "font-size": "16px",
+        "color": "#f8ff35",
+        "margin": "0px 0px 0px 0px "
+      },
+      "uri": "std.Button",
+      "sort": "a0",
+      "from": "Container_r76wXPn00z.children",
+      "id": "ButtonBqRu233-yQ0"
+    },
+    "Containere3xiFewO5V4": {
+      "type": "element",
+      "id": "Containere3xiFewO5V4",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "1175px",
+        "margin": "60px 0px 130px 0px ",
+        "flex-direction": "row"
+      },
+      "uri": "std.Container",
+      "from": "ContainerVtGD2r4_BQ5",
+      "sort": "a1"
+    },
+    "ContainerDlRM8p3WGmH": {
+      "type": "element",
+      "id": "ContainerDlRM8p3WGmH",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "570px",
+        "border-radius": "30px",
+        "border": "1px solid rgba(255,255,255,0.1)",
+        "height": "630px",
+        "margin": "0px 30px 0px 0px "
+      },
+      "uri": "std.Container",
+      "from": "Containere3xiFewO5V4",
+      "sort": "a0"
+    },
+    "Text0tDtEE-G_w2": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Blog"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "14px",
+        "line-height": "12px"
+      },
+      "uri": "std.Text",
+      "id": "Text0tDtEE-G_w2",
+      "from": "ContainerN5R7juF9e_q",
+      "sort": "a0"
+    },
+    "ContainerDvOVJIsW19d": {
+      "type": "element",
+      "id": "ContainerDvOVJIsW19d",
+      "styles": {
+        "flex-basis": "auto",
+        "border-radius": "30px 30px 0px 0px ",
+        "height": "320px"
+      },
+      "uri": "std.Container",
+      "from": "ContainerDlRM8p3WGmH",
+      "sort": "Zz"
+    },
+    "Container1omi_qFZlcv": {
+      "type": "element",
+      "id": "Container1omi_qFZlcv",
+      "styles": {
+        "flex-basis": "auto",
+        "padding": "30px"
+      },
+      "uri": "std.Container",
+      "from": "ContainerDlRM8p3WGmH",
+      "sort": "a1"
+    },
+    "ContainerN5R7juF9e_q": {
+      "type": "element",
+      "id": "ContainerN5R7juF9e_q",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row"
+      },
+      "uri": "std.Container",
+      "from": "Container1omi_qFZlcv",
+      "sort": "Zz"
+    },
+    "Containerk2hivYDDu_9": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row"
+      },
+      "uri": "std.Container",
+      "sort": "a1",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "UIPaaS Design"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "14px"
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        }
+      ],
+      "id": "Containerk2hivYDDu_9",
+      "from": "ContainerN5R7juF9e_q"
+    },
+    "Textc5tUltnmMgK": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "10 min"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "14px",
+        "border-left": "1px solid rgba(255,255,255,0.1)",
+        "line-height": "12px"
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "Containerk2hivYDDu_9.children",
+      "id": "Textc5tUltnmMgK"
+    },
+    "ContainerxbooYfvhf2m": {
+      "type": "element",
+      "id": "ContainerxbooYfvhf2m",
+      "styles": {
+        "flex-basis": "auto"
+      },
+      "uri": "std.Container",
+      "from": "Container1omi_qFZlcv",
+      "sort": "a0"
+    },
+    "TextyWINkkQ9pwi": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Building for the real world"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "30px",
+        "font-weight": "700",
+        "line-height": "30px"
+      },
+      "uri": "std.Text",
+      "id": "TextyWINkkQ9pwi",
+      "from": "ContainerxbooYfvhf2m",
+      "sort": "a0"
+    },
+    "Texth0LXu8pKP_p": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "How friends from college went on to build one powerful\nplatform (hint: it was ours)."
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,0.7)",
+        "font-size": "18px"
+      },
+      "uri": "std.Text",
+      "id": "Texth0LXu8pKP_p",
+      "from": "ContainerxbooYfvhf2m",
+      "sort": "a1"
+    },
+    "ButtonHaFlsx92nMY": {
+      "type": "element",
+      "props": {
+        "theme": "solid",
+        "type": "primary",
+        "children": "Read More"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "135px",
+        "border": "1px solid rgba(255,255,255,0.14)",
+        "background-color": "unset",
+        "border-radius": "20px",
+        "color": "#f8ff35",
+        "font-size": "15px",
+        "line-height": "12px",
+        "height": "40px",
+        "margin": "30px 0px 0px 0px "
+      },
+      "uri": "std.Button",
+      "id": "ButtonHaFlsx92nMY",
+      "from": "ContainerxbooYfvhf2m",
+      "sort": "a2"
+    },
+    "ContainerTLHAJ1182Pw": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "570px",
+        "border-radius": "30px",
+        "border": "1px solid rgba(255,255,255,0.1)",
+        "height": "630px"
+      },
+      "uri": "std.Container",
+      "sort": "a1",
+      "children": [
+        {
+          "type": "element",
+          "styles": {
+            "flex-basis": "auto",
+            "border-radius": "30px 30px 0px 0px ",
+            "height": "320px"
+          },
+          "uri": "std.Container",
+          "sort": "Zz"
+        },
+        {
+          "type": "element",
+          "styles": {
+            "flex-basis": "auto",
+            "padding": "30px"
+          },
+          "uri": "std.Container",
+          "sort": "a1",
+          "children": [
+            {
+              "type": "element",
+              "styles": {
+                "flex-basis": "auto",
+                "flex-direction": "row"
+              },
+              "uri": "std.Container",
+              "sort": "Zz",
+              "children": [
+                {
+                  "type": "element",
+                  "props": {
+                    "heading": 2,
+                    "type": "success",
+                    "children": "Blog"
+                  },
+                  "styles": {
+                    "flex-basis": "auto",
+                    "color": "rgba(255,255,255,1)",
+                    "font-size": "14px",
+                    "line-height": "12px"
+                  },
+                  "uri": "std.Text",
+                  "sort": "a0"
+                },
+                {
+                  "type": "element",
+                  "styles": {
+                    "flex-basis": "auto",
+                    "flex-direction": "row"
+                  },
+                  "uri": "std.Container",
+                  "sort": "a1",
+                  "children": [
+                    {
+                      "type": "element",
+                      "props": {
+                        "heading": 2,
+                        "type": "success",
+                        "children": "10 min"
+                      },
+                      "styles": {
+                        "flex-basis": "auto",
+                        "color": "rgba(255,255,255,1)",
+                        "font-size": "14px",
+                        "border-left": "1px solid rgba(255,255,255,0.1)",
+                        "line-height": "12px"
+                      },
+                      "uri": "std.Text",
+                      "sort": "a0"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "styles": {
+                "flex-basis": "auto"
+              },
+              "uri": "std.Container",
+              "sort": "a0",
+              "children": [
+                {
+                  "type": "element",
+                  "props": {
+                    "heading": 2,
+                    "type": "success",
+                    "children": "Building for the real world"
+                  },
+                  "styles": {
+                    "flex-basis": "auto",
+                    "color": "rgba(255,255,255,1)",
+                    "font-size": "30px",
+                    "font-weight": "700",
+                    "line-height": "30px"
+                  },
+                  "uri": "std.Text",
+                  "sort": "a0"
+                },
+                {
+                  "type": "element",
+                  "props": {
+                    "heading": 2,
+                    "type": "success",
+                    "children": "How friends from college went on to build one powerful\nplatform (hint: it was ours)."
+                  },
+                  "styles": {
+                    "flex-basis": "auto",
+                    "color": "rgba(255,255,255,0.7)",
+                    "font-size": "18px"
+                  },
+                  "uri": "std.Text",
+                  "sort": "a1"
+                },
+                {
+                  "type": "element",
+                  "props": {
+                    "theme": "solid",
+                    "type": "primary",
+                    "children": "Read More"
+                  },
+                  "styles": {
+                    "flex-basis": "auto",
+                    "width": "135px",
+                    "border": "1px solid rgba(255,255,255,0.14)",
+                    "background-color": "unset",
+                    "border-radius": "20px",
+                    "color": "#f8ff35",
+                    "font-size": "15px",
+                    "line-height": "12px",
+                    "height": "40px",
+                    "margin": "30px 0px 0px 0px "
+                  },
+                  "uri": "std.Button",
+                  "sort": "a2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "ContainerTLHAJ1182Pw",
+      "from": "Containere3xiFewO5V4"
+    },
+    "ContainertqHfub-N8ii": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "padding": "30px"
+      },
+      "uri": "std.Container",
+      "sort": "a1",
+      "children": [
+        {
+          "type": "element",
+          "styles": {
+            "flex-basis": "auto",
+            "flex-direction": "row"
+          },
+          "uri": "std.Container",
+          "sort": "Zz",
+          "children": [
+            {
+              "type": "element",
+              "props": {
+                "heading": 2,
+                "type": "success",
+                "children": "Blog"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "color": "rgba(255,255,255,1)",
+                "font-size": "14px",
+                "line-height": "12px"
+              },
+              "uri": "std.Text",
+              "sort": "a0"
+            },
+            {
+              "type": "element",
+              "styles": {
+                "flex-basis": "auto",
+                "flex-direction": "row"
+              },
+              "uri": "std.Container",
+              "sort": "a1",
+              "children": [
+                {
+                  "type": "element",
+                  "props": {
+                    "heading": 2,
+                    "type": "success",
+                    "children": "10 min"
+                  },
+                  "styles": {
+                    "flex-basis": "auto",
+                    "color": "rgba(255,255,255,1)",
+                    "font-size": "14px",
+                    "border-left": "1px solid rgba(255,255,255,0.1)",
+                    "line-height": "12px"
+                  },
+                  "uri": "std.Text",
+                  "sort": "a0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "styles": {
+            "flex-basis": "auto"
+          },
+          "uri": "std.Container",
+          "sort": "a0",
+          "children": [
+            {
+              "type": "element",
+              "props": {
+                "heading": 2,
+                "type": "success",
+                "children": "Building for the real world"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "color": "rgba(255,255,255,1)",
+                "font-size": "30px",
+                "font-weight": "700",
+                "line-height": "30px"
+              },
+              "uri": "std.Text",
+              "sort": "a0"
+            },
+            {
+              "type": "element",
+              "props": {
+                "heading": 2,
+                "type": "success",
+                "children": "How friends from college went on to build one powerful\nplatform (hint: it was ours)."
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "color": "rgba(255,255,255,0.7)",
+                "font-size": "18px"
+              },
+              "uri": "std.Text",
+              "sort": "a1"
+            },
+            {
+              "type": "element",
+              "props": {
+                "theme": "solid",
+                "type": "primary",
+                "children": "Read More"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "width": "135px",
+                "border": "1px solid rgba(255,255,255,0.14)",
+                "background-color": "unset",
+                "border-radius": "20px",
+                "color": "#f8ff35",
+                "font-size": "15px",
+                "line-height": "12px",
+                "height": "40px",
+                "margin": "30px 0px 0px 0px "
+              },
+              "uri": "std.Button",
+              "sort": "a2"
+            }
+          ]
+        }
+      ],
+      "from": "ContainerTLHAJ1182Pw.children",
+      "id": "ContainertqHfub-N8ii"
+    },
+    "ContainerGX2Ay1MqO02": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto"
+      },
+      "uri": "std.Container",
+      "sort": "a0",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Building for the real world"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "30px",
+            "font-weight": "700",
+            "line-height": "30px"
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "How friends from college went on to build one powerful\nplatform (hint: it was ours)."
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,0.7)",
+            "font-size": "18px"
+          },
+          "uri": "std.Text",
+          "sort": "a1"
+        },
+        {
+          "type": "element",
+          "props": {
+            "theme": "solid",
+            "type": "primary",
+            "children": "Read More"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "135px",
+            "border": "1px solid rgba(255,255,255,0.14)",
+            "background-color": "unset",
+            "border-radius": "20px",
+            "color": "#f8ff35",
+            "font-size": "15px",
+            "line-height": "12px",
+            "height": "40px",
+            "margin": "30px 0px 0px 0px "
+          },
+          "uri": "std.Button",
+          "sort": "a2"
+        }
+      ],
+      "from": "ContainertqHfub-N8ii.children",
+      "id": "ContainerGX2Ay1MqO02"
+    },
+    "ButtonlGe1QbXdRKs": {
+      "type": "element",
+      "props": {
+        "theme": "solid",
+        "type": "primary",
+        "children": "Read More"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "135px",
+        "border": "1px solid rgba(255,255,255,0.14)",
+        "background-color": "#f8ff35",
+        "border-radius": "20px",
+        "color": "#1117a0",
+        "font-size": "15px",
+        "line-height": "12px",
+        "height": "40px",
+        "margin": "30px 0px 0px 0px "
+      },
+      "uri": "std.Button",
+      "sort": "a2",
+      "from": "ContainerGX2Ay1MqO02.children",
+      "id": "ButtonlGe1QbXdRKs"
+    },
+    "TextJrWlEOvOvOC": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "How friends from college went on to build one powerful\nplatform (hint: it was ours)."
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,0.7)",
+        "font-size": "18px"
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "from": "ContainerGX2Ay1MqO02.children",
+      "id": "TextJrWlEOvOvOC"
+    },
+    "TextdbRZVpSvowA": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "High Returns on Investment"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "30px",
+        "font-weight": "700",
+        "line-height": "30px"
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "ContainerGX2Ay1MqO02.children",
+      "id": "TextdbRZVpSvowA"
+    },
+    "Container_QM82Ikc4jQ": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row"
+      },
+      "uri": "std.Container",
+      "sort": "Zz",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Blog"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "14px",
+            "line-height": "12px"
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "styles": {
+            "flex-basis": "auto",
+            "flex-direction": "row"
+          },
+          "uri": "std.Container",
+          "sort": "a1",
+          "children": [
+            {
+              "type": "element",
+              "props": {
+                "heading": 2,
+                "type": "success",
+                "children": "10 min"
+              },
+              "styles": {
+                "flex-basis": "auto",
+                "color": "rgba(255,255,255,1)",
+                "font-size": "14px",
+                "border-left": "1px solid rgba(255,255,255,0.1)",
+                "line-height": "12px"
+              },
+              "uri": "std.Text",
+              "sort": "a0"
+            }
+          ]
+        }
+      ],
+      "from": "ContainertqHfub-N8ii.children",
+      "id": "Container_QM82Ikc4jQ"
+    },
+    "Container02jdE-7mvS0": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row"
+      },
+      "uri": "std.Container",
+      "sort": "a1",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "10 min"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "14px",
+            "border-left": "1px solid rgba(255,255,255,0.1)",
+            "line-height": "12px"
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        }
+      ],
+      "from": "Container_QM82Ikc4jQ.children",
+      "id": "Container02jdE-7mvS0"
+    },
+    "Text_jfaOWZgLQo": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "10 min"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "14px",
+        "border-left": "1px solid rgba(255,255,255,0.1)",
+        "line-height": "12px"
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "Container02jdE-7mvS0.children",
+      "id": "Text_jfaOWZgLQo"
+    },
+    "TextdbW93SQP-dv": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Blog"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "14px",
+        "line-height": "12px"
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "Container_QM82Ikc4jQ.children",
+      "id": "TextdbW93SQP-dv"
+    },
+    "ContainerHjcLA6bG8DV": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "border-radius": "30px 30px 0px 0px ",
+        "height": "320px"
+      },
+      "uri": "std.Container",
+      "sort": "Zz",
+      "from": "ContainerTLHAJ1182Pw.children",
+      "id": "ContainerHjcLA6bG8DV"
+    },
+    "ContainerkeO5aovnN_g": {
+      "type": "element",
+      "id": "ContainerkeO5aovnN_g",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "column",
+        "justify-content": "center",
+        "align-items": "center",
+        "background-color": null,
+        "background-image": "url(https://assets.deamoy.com/Nq5znPWKwsE)",
+        "background-size": "auto auto",
+        "background-position": "center bottom",
+        "background-repeat": "no-repeat",
+        "background-attachment": "scroll",
+        "border-top": "1px solid rgba(255,255,255,0.1)"
+      },
+      "uri": "std.Container",
+      "from": "root",
+      "sort": "a9"
+    },
+    "ContainerTx2NV-FV-sc": {
+      "type": "element",
+      "id": "ContainerTx2NV-FV-sc",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "1170px",
+        "flex-direction": "row",
+        "margin": "60px 0px 90px 0px "
+      },
+      "uri": "std.Container",
+      "from": "ContainerkeO5aovnN_g",
+      "sort": "a0"
+    },
+    "ContainerbXeWBVGptoY": {
+      "type": "element",
+      "id": "ContainerbXeWBVGptoY",
+      "styles": {
+        "flex-basis": "auto"
+      },
+      "uri": "std.Container",
+      "from": "ContainerTx2NV-FV-sc",
+      "sort": "a0"
+    },
+    "ContainerDL5d1s5-a6a": {
+      "type": "element",
+      "id": "ContainerDL5d1s5-a6a",
+      "styles": {
+        "flex-basis": "auto",
+        "margin": "0px 70px 0px 70px "
+      },
+      "uri": "std.Container",
+      "from": "ContainerTx2NV-FV-sc",
+      "sort": "a1"
+    },
+    "Image-gdNgRLVcPy": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/zcYQxyqkBd0"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "133px",
+        "height": "36px"
+      },
+      "uri": "std.Image",
+      "id": "Image-gdNgRLVcPy",
+      "from": "ContainerbXeWBVGptoY",
+      "sort": "a0"
+    },
+    "Text9loVhGB3S-8": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "SUBSCRIBE TO OUR NEWSLETTER\n"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "font-size": "13px",
+        "color": "rgba(255,255,255,0.7)"
+      },
+      "uri": "std.Text",
+      "id": "Text9loVhGB3S-8",
+      "from": "ContainerbXeWBVGptoY",
+      "sort": "a1"
+    },
+    "TextAKkbvvLkBhw": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "By subscribing, you accepted the our Policy"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "font-size": "13px",
+        "color": "rgba(255,255,255,0.7)"
+      },
+      "uri": "std.Text",
+      "sort": "a2",
+      "id": "TextAKkbvvLkBhw",
+      "from": "ContainerbXeWBVGptoY"
+    },
+    "Containerf9fyMWLAz7l": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "margin": "45px 0px 0px 0px "
+      },
+      "uri": "std.Container",
+      "sort": "a3",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/vucn7zfDaeu"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "8px",
+            "height": "15px",
+            "margin": "10px"
+          },
+          "uri": "std.Image",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/qswtfoyYADj"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "15px",
+            "height": "12px",
+            "margin": "10px"
+          },
+          "uri": "std.Image",
+          "sort": "a0V"
+        },
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/5XMH-0MA-cw"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "15px",
+            "height": "15px",
+            "margin": "10px"
+          },
+          "uri": "std.Image",
+          "sort": "a1"
+        },
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/RFIOcFE70uF"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "13px",
+            "height": "13px",
+            "margin": "10px"
+          },
+          "uri": "std.Image",
+          "sort": "a2"
+        }
+      ],
+      "id": "Containerf9fyMWLAz7l",
+      "from": "ContainerbXeWBVGptoY"
+    },
+    "ImagegrINsdt87TB": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/RFIOcFE70uF"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "13px",
+        "height": "13px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a2",
+      "from": "Containerf9fyMWLAz7l.children",
+      "id": "ImagegrINsdt87TB"
+    },
+    "ImageOr_uSoN4-wt": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/5XMH-0MA-cw"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "15px",
+        "height": "15px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a1",
+      "from": "Containerf9fyMWLAz7l.children",
+      "id": "ImageOr_uSoN4-wt"
+    },
+    "Image-r3xSI0nL9h": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/qswtfoyYADj"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "15px",
+        "height": "12px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a0V",
+      "from": "Containerf9fyMWLAz7l.children",
+      "id": "Image-r3xSI0nL9h"
+    },
+    "Image5VYRg289HUI": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/vucn7zfDaeu"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "8px",
+        "height": "15px",
+        "margin": "10px"
+      },
+      "uri": "std.Image",
+      "sort": "a0",
+      "from": "Containerf9fyMWLAz7l.children",
+      "id": "Image5VYRg289HUI"
+    },
+    "TextGobOvCOL77X": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Platform"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "700",
+        "font-size": "22px",
+        "line-height": "16px",
+        "margin": "0px 0px 10px 0px "
+      },
+      "uri": "std.Text",
+      "id": "TextGobOvCOL77X",
+      "from": "ContainerDL5d1s5-a6a",
+      "sort": "a0"
+    },
+    "TextInTHOYIP0pm": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Home"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "16px"
+      },
+      "uri": "std.Text",
+      "id": "TextInTHOYIP0pm",
+      "from": "ContainerDL5d1s5-a6a",
+      "sort": "a1"
+    },
+    "TextO0YpqwNR2am": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Contact Us"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "16px"
+      },
+      "uri": "std.Text",
+      "sort": "a2",
+      "id": "TextO0YpqwNR2am",
+      "from": "ContainerDL5d1s5-a6a"
+    },
+    "TextjX_kBd6JtoW": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Blog"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "16px"
+      },
+      "uri": "std.Text",
+      "sort": "a1V",
+      "id": "TextjX_kBd6JtoW",
+      "from": "ContainerDL5d1s5-a6a"
+    },
+    "TextZv9O9udH769": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Services"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "16px"
+      },
+      "uri": "std.Text",
+      "sort": "a1G",
+      "id": "TextZv9O9udH769",
+      "from": "ContainerDL5d1s5-a6a"
+    },
+    "TextKucFeCRxTa3": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Pricing"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "16px"
+      },
+      "uri": "std.Text",
+      "sort": "a18",
+      "id": "TextKucFeCRxTa3",
+      "from": "ContainerDL5d1s5-a6a"
+    },
+    "Textps5S2Y477W_": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "About Us"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "16px"
+      },
+      "uri": "std.Text",
+      "sort": "a14",
+      "id": "Textps5S2Y477W_",
+      "from": "ContainerDL5d1s5-a6a"
+    },
+    "ContainerUwqORjkVpH-": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "margin": "48px 70px 0px 70px "
+      },
+      "uri": "std.Container",
+      "sort": "a4",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Platform"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-weight": "700",
+            "font-size": "22px",
+            "line-height": "16px"
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Home"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "16px"
+          },
+          "uri": "std.Text",
+          "sort": "a1"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "About Us"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "16px"
+          },
+          "uri": "std.Text",
+          "sort": "a14"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Pricing"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "16px"
+          },
+          "uri": "std.Text",
+          "sort": "a18"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Services"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "16px"
+          },
+          "uri": "std.Text",
+          "sort": "a1G"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Blog"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "16px"
+          },
+          "uri": "std.Text",
+          "sort": "a1V"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Contact Us"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "16px"
+          },
+          "uri": "std.Text",
+          "sort": "a2"
+        }
+      ],
+      "id": "ContainerUwqORjkVpH-",
+      "from": "ContainerTx2NV-FV-sc"
+    },
+    "Texto_iUJYBpBqW": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Career"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "16px"
+      },
+      "uri": "std.Text",
+      "sort": "a1V",
+      "from": "ContainerUwqORjkVpH-.children",
+      "id": "Texto_iUJYBpBqW"
+    },
+    "TextuQHCymOgW2P": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Customers"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "16px"
+      },
+      "uri": "std.Text",
+      "sort": "a1G",
+      "from": "ContainerUwqORjkVpH-.children",
+      "id": "TextuQHCymOgW2P"
+    },
+    "TextK755VEwcma5": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Tools & Integrations"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "16px"
+      },
+      "uri": "std.Text",
+      "sort": "a18",
+      "from": "ContainerUwqORjkVpH-.children",
+      "id": "TextK755VEwcma5"
+    },
+    "TextgeFJ7xSiiZE": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Security"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "16px"
+      },
+      "uri": "std.Text",
+      "sort": "a14",
+      "from": "ContainerUwqORjkVpH-.children",
+      "id": "TextgeFJ7xSiiZE"
+    },
+    "TextjwrYQL3UTam": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "FAQ"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "16px"
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "from": "ContainerUwqORjkVpH-.children",
+      "id": "TextjwrYQL3UTam"
+    },
+    "ContainerrvLyZeMpgrt": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "margin": "0px 70px 0px 0px "
+      },
+      "uri": "std.Container",
+      "sort": "a5",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Platform"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-weight": "700",
+            "font-size": "22px",
+            "line-height": "16px"
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Home"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "16px"
+          },
+          "uri": "std.Text",
+          "sort": "a1"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "About Us"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "16px"
+          },
+          "uri": "std.Text",
+          "sort": "a14"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Pricing"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "16px"
+          },
+          "uri": "std.Text",
+          "sort": "a18"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Services"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "16px"
+          },
+          "uri": "std.Text",
+          "sort": "a1G"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Blog"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "16px"
+          },
+          "uri": "std.Text",
+          "sort": "a1V"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "Contact Us"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "16px"
+          },
+          "uri": "std.Text",
+          "sort": "a2"
+        }
+      ],
+      "id": "ContainerrvLyZeMpgrt",
+      "from": "ContainerTx2NV-FV-sc"
+    },
+    "Texta0UnVaSr9Gn": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "(+806) 000 88 99"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "22px",
+        "font-weight": "700"
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "ContainerPMQiN2Fosul",
+      "id": "Texta0UnVaSr9Gn"
+    },
+    "TextVNarGyIU_We": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Contact Info"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "700",
+        "font-size": "22px",
+        "line-height": "16px",
+        "margin": "0px 0px 10px 0px "
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "ContainerrvLyZeMpgrt.children",
+      "id": "TextVNarGyIU_We"
+    },
+    "ContainerPMQiN2Fosul": {
+      "type": "element",
+      "id": "ContainerPMQiN2Fosul",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "justify-content": "start",
+        "align-items": "center",
+        "padding": "0px 0px 0px 10px "
+      },
+      "uri": "std.Container",
+      "from": "ContainerrvLyZeMpgrt",
+      "sort": "a2"
+    },
+    "ImageTNwu6w4ZnuB": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/7sWR2qqzZ6Q"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "22px",
+        "height": "22px"
+      },
+      "uri": "std.Image",
+      "id": "ImageTNwu6w4ZnuB",
+      "from": "ContainerPMQiN2Fosul",
+      "sort": "Zz"
+    },
+    "ContainerIKSpVz6bXco": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "justify-content": "start",
+        "align-items": "center",
+        "padding": "0px 0px 0px 10px "
+      },
+      "uri": "std.Container",
+      "sort": "a3",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/7sWR2qqzZ6Q"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "22px",
+            "height": "22px"
+          },
+          "uri": "std.Image",
+          "sort": "Zz"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "(+806) 000 88 99"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "22px",
+            "font-weight": "700"
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        }
+      ],
+      "id": "ContainerIKSpVz6bXco",
+      "from": "ContainerrvLyZeMpgrt"
+    },
+    "TextWtBcevbVrqZ": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "contact@info.com"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "14px"
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "ContainerIKSpVz6bXco.children",
+      "id": "TextWtBcevbVrqZ"
+    },
+    "Image6bV0Ql9lRLp": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/PG4KsInq-fq"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "16px",
+        "height": "16px"
+      },
+      "uri": "std.Image",
+      "sort": "Zz",
+      "from": "ContainerIKSpVz6bXco.children",
+      "id": "Image6bV0Ql9lRLp"
+    },
+    "Container5SEeU5tj0nh": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "justify-content": "start",
+        "align-items": "center",
+        "padding": "0px 0px 0px 10px "
+      },
+      "uri": "std.Container",
+      "sort": "a4",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/PG4KsInq-fq"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "16px",
+            "height": "16px"
+          },
+          "uri": "std.Image",
+          "sort": "Zz"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "contact@info.com"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "16px",
+            "font-weight": "400",
+            "line-height": "14px"
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        }
+      ],
+      "id": "Container5SEeU5tj0nh",
+      "from": "ContainerrvLyZeMpgrt"
+    },
+    "TextsZD1y_EqIbr": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "1811 Silverside Rd,\nWilmington, DE 19810, USA"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "22px"
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "Container5SEeU5tj0nh.children",
+      "id": "TextsZD1y_EqIbr"
+    },
+    "Imageo-8apZGHBMF": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/sUoM6vXb_ji"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "16px",
+        "height": "16px"
+      },
+      "uri": "std.Image",
+      "sort": "Zz",
+      "from": "Container5SEeU5tj0nh.children",
+      "id": "Imageo-8apZGHBMF"
+    },
+    "Container8TuAqSygn8J": {
+      "type": "element",
+      "id": "Container8TuAqSygn8J",
+      "styles": {
+        "flex-basis": "auto",
+        "border-top": "1px solid rgba(255,255,255,0.1)",
+        "width": "1920px",
+        "align-items": "center",
+        "padding": "20px 0px 40px 0px "
+      },
+      "uri": "std.Container",
+      "from": "ContainerkeO5aovnN_g",
+      "sort": "a1"
+    },
+    "TextcpVfu2dwJAw": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Full Copyright & Design By @Theme pure – 2023"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,0.6)",
+        "font-size": "14px",
+        "line-height": "12px"
+      },
+      "uri": "std.Text",
+      "id": "TextcpVfu2dwJAw",
+      "from": "Container8TuAqSygn8J",
+      "sort": "a0"
+    },
+    "Image8s9SYdsx--u": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/j_hK_UrcV1l"
+      },
+      "styles": {
+        "flex-basis": "auto"
+      },
+      "uri": "std.Image",
+      "id": "Image8s9SYdsx--u",
+      "from": "ContainerDvOVJIsW19d",
+      "sort": "a0"
+    },
+    "ImageKri7gu4qYRK": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/NWllV4BOJ2p"
+      },
+      "styles": {
+        "flex-basis": "auto"
+      },
+      "uri": "std.Image",
+      "id": "ImageKri7gu4qYRK",
+      "from": "ContainerHjcLA6bG8DV",
+      "sort": "a0"
+    },
+    "ContainersJGVGRd8h-f": {
+      "type": "element",
+      "id": "ContainersJGVGRd8h-f",
+      "styles": {
+        "flex-basis": "auto",
+        "height": "100px",
+        "justify-content": "center",
+        "align-items": "center",
+        "border-bottom": "1px solid rgba(255,255,255,0.1)"
+      },
+      "uri": "std.Container",
+      "from": "root",
+      "sort": "a0G",
+      "title": "容器"
+    },
+    "ContainergxNsj77RsqF": {
+      "type": "element",
+      "id": "ContainergxNsj77RsqF",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "1200px",
+        "flex-direction": "row",
+        "background-color": null,
+        "background-image": "unset",
+        "background-size": "unset",
+        "background-position": "unset",
+        "background-repeat": "unset",
+        "background-attachment": "unset",
+        "justify-content": "center",
+        "align-items": "center",
+        "align-self": "center",
+        "position": "absolute"
+      },
+      "uri": "std.Container",
+      "from": "ContainersJGVGRd8h-f",
+      "sort": "a0"
+    },
+    "Containere01ek5UeFHj": {
+      "type": "element",
+      "id": "Containere01ek5UeFHj",
+      "styles": {
+        "flex-basis": "auto",
+        "align-items": "center",
+        "justify-content": "center"
+      },
+      "uri": "std.Container",
+      "from": "ContainergxNsj77RsqF",
+      "sort": "a0"
+    },
+    "Imagev5MqNgcFnZl": {
+      "type": "element",
+      "props": {
+        "src": "https://assets.deamoy.com/b20864da-6499-478d-85df-86a744c64787",
+        "width": 400,
+        "height": 400
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "120px",
+        "height": "30px",
+        "margin": "0px 90px 0px 0px ",
+        "align-items": "center",
+        "justify-content": "center",
+        "flex-wrap": "nowrap",
+        "text-align": "center"
+      },
+      "uri": "std.Image",
+      "sort": "a1",
+      "id": "Imagev5MqNgcFnZl",
+      "from": "Containere01ek5UeFHj"
+    },
+    "ContaineriSC8rf_M3tx": {
+      "type": "element",
+      "id": "ContaineriSC8rf_M3tx",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "margin": "0px auto",
+        "justify-content": "center",
+        "align-items": "center",
+        "position": "sticky",
+        "__constraint": "",
+        "width": "535px",
+        "top": "0px",
+        "bottom": null
+      },
+      "uri": "std.Container",
+      "from": "ContainergxNsj77RsqF",
+      "sort": "a1",
+      "title": "容器"
+    },
+    "TexteCxZAtem8Xw": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Home"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "margin": "0px",
+        "padding": "20px",
+        "font-size": "16px",
+        "line-height": "36px"
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "id": "TexteCxZAtem8Xw",
+      "from": "ContaineriSC8rf_M3tx"
+    },
+    "Text0x8m2Bs5XV_": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Page"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "margin": "0px",
+        "padding": "20px",
+        "font-size": "16px",
+        "line-height": "36px"
+      },
+      "uri": "std.Text",
+      "sort": "a1",
+      "id": "Text0x8m2Bs5XV_",
+      "from": "ContaineriSC8rf_M3tx"
+    },
+    "Text1kLJlncjZvp": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Portfoilo"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "margin": "0px",
+        "padding": "20px",
+        "font-size": "16px",
+        "line-height": "36px"
+      },
+      "uri": "std.Text",
+      "sort": "a2",
+      "id": "Text1kLJlncjZvp",
+      "from": "ContaineriSC8rf_M3tx"
+    },
+    "TextFyF0MmEzZgF": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Pricing"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "margin": "0px",
+        "padding": "20px",
+        "font-size": "16px",
+        "line-height": "36px"
+      },
+      "uri": "std.Text",
+      "sort": "a3",
+      "id": "TextFyF0MmEzZgF",
+      "from": "ContaineriSC8rf_M3tx"
+    },
+    "Textx5cjzEOlnlk": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Blog"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "margin": "0px",
+        "padding": "20px",
+        "font-size": "16px",
+        "line-height": "36px"
+      },
+      "uri": "std.Text",
+      "sort": "a4",
+      "id": "Textx5cjzEOlnlk",
+      "from": "ContaineriSC8rf_M3tx"
+    },
+    "TextwfrDKlvhXK_": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Contact"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "margin": "0px",
+        "padding": "20px",
+        "font-size": "16px",
+        "line-height": "36px"
+      },
+      "uri": "std.Text",
+      "sort": "a5",
+      "id": "TextwfrDKlvhXK_",
+      "from": "ContaineriSC8rf_M3tx"
+    },
+    "ContainerUGPnJ4Adyy0": {
+      "type": "element",
+      "id": "ContainerUGPnJ4Adyy0",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "justify-content": "center",
+        "align-items": "center"
+      },
+      "uri": "std.Container",
+      "from": "ContainergxNsj77RsqF",
+      "sort": "a2"
+    },
+    "TextL1Y0VyMEVim": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Login"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "margin": "0px",
+        "padding": "10px",
+        "font-size": "16px",
+        "line-height": "36px",
+        "align-items": "center"
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "id": "TextL1Y0VyMEVim",
+      "from": "ContainerUGPnJ4Adyy0"
+    },
+    "Buttonj-WSbHKZ_fg": {
+      "type": "element",
+      "props": {
+        "theme": "solid",
+        "type": "primary",
+        "children": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Get in Touch"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "background-color": "rgba(0, 0, 255, 1)",
+        "border-radius": "20px",
+        "padding": "4px 16px 4px 16px ",
+        "font-size": "16px",
+        "line-height": "36px",
+        "height": "42px",
+        "color": "rgba(255, 255, 255, 1)",
+        "width": "156px",
+        "margin": "0px 0px 0px 20px "
+      },
+      "uri": "std.Button",
+      "sort": "a1",
+      "id": "Buttonj-WSbHKZ_fg",
+      "from": "ContainerUGPnJ4Adyy0"
+    },
+    "Textv1o9pL23Odg": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Wellcome to Softech"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "#f8ff35",
+        "font-weight": "500",
+        "margin": "60px 0px 0px 0px "
+      },
+      "uri": "std.Text",
+      "sort": "ZzV",
+      "id": "Textv1o9pL23Odg",
+      "from": "Container4916f3de-0c86-4372-89cc-66eaccd85159"
+    },
+    "ContaineruyiMll-9tFn": {
+      "type": "element",
+      "id": "ContaineruyiMll-9tFn",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "150px",
+        "height": "64px",
+        "border-radius": "6px",
+        "color": "#a7b1bd",
+        "background-color": "#3137d2",
+        "justify-content": "center",
+        "align-items": "center",
+        "margin": "0px 8px 0px 8px "
+      },
+      "uri": "std.Container",
+      "from": "Container28400219-3cc1-435b-8814-864a73977aca",
+      "sort": "a01"
+    },
+    "ImageoICIpZUmAxP": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/cyLNphNWQE6"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "76px",
+        "height": "18px"
+      },
+      "uri": "std.Image",
+      "id": "ImageoICIpZUmAxP",
+      "from": "ContaineruyiMll-9tFn",
+      "sort": "a0"
+    },
+    "Container6Xevmt_VSZ3": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "150px",
+        "height": "64px",
+        "border-radius": "6px",
+        "color": "#a7b1bd",
+        "background-color": "#3137d2",
+        "justify-content": "center",
+        "align-items": "center",
+        "margin": "0px 8px 0px 8px "
+      },
+      "uri": "std.Container",
+      "sort": "a2",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/cyLNphNWQE6"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "76px",
+            "height": "18px"
+          },
+          "uri": "std.Image",
+          "sort": "a0"
+        }
+      ],
+      "id": "Container6Xevmt_VSZ3",
+      "from": "Container28400219-3cc1-435b-8814-864a73977aca"
+    },
+    "Imagekxy68XZJzX-": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/kFd965HmDj4"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "83px",
+        "height": "20px"
+      },
+      "uri": "std.Image",
+      "sort": "a0",
+      "from": "Container6Xevmt_VSZ3.children",
+      "id": "Imagekxy68XZJzX-"
+    },
+    "ContainerzGVHCWYEWaJ": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "150px",
+        "height": "64px",
+        "border-radius": "6px",
+        "color": "#a7b1bd",
+        "background-color": "#3137d2",
+        "justify-content": "center",
+        "align-items": "center",
+        "margin": "0px 8px 0px 8px "
+      },
+      "uri": "std.Container",
+      "sort": "a3",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/cyLNphNWQE6"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "76px",
+            "height": "18px"
+          },
+          "uri": "std.Image",
+          "sort": "a0"
+        }
+      ],
+      "id": "ContainerzGVHCWYEWaJ",
+      "from": "Container28400219-3cc1-435b-8814-864a73977aca"
+    },
+    "ImageXiWI4UWomlz": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/j1EGHoPfSw6"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "86px",
+        "height": "19px"
+      },
+      "uri": "std.Image",
+      "sort": "a0",
+      "from": "ContainerzGVHCWYEWaJ.children",
+      "id": "ImageXiWI4UWomlz"
+    },
+    "ContainerG0JMGOtcWqf": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "150px",
+        "height": "64px",
+        "border-radius": "6px",
+        "color": "#a7b1bd",
+        "background-color": "#3137d2",
+        "justify-content": "center",
+        "align-items": "center",
+        "margin": "0px 8px 0px 8px "
+      },
+      "uri": "std.Container",
+      "sort": "a4",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/cyLNphNWQE6"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "76px",
+            "height": "18px"
+          },
+          "uri": "std.Image",
+          "sort": "a0"
+        }
+      ],
+      "id": "ContainerG0JMGOtcWqf",
+      "from": "Container28400219-3cc1-435b-8814-864a73977aca"
+    },
+    "Imagexa1gFj1lezf": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/dP_n70wNTZ0"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "70px",
+        "height": "18px"
+      },
+      "uri": "std.Image",
+      "sort": "a0",
+      "from": "ContainerG0JMGOtcWqf.children",
+      "id": "Imagexa1gFj1lezf"
+    },
+    "Container81G23nkwgTE": {
+      "type": "element",
+      "id": "Container81G23nkwgTE",
+      "styles": {
+        "flex-basis": "auto",
+        "justify-content": "center",
+        "align-items": "center",
+        "padding": "100px 0px 100px 0px ",
+        "background-color": null,
+        "background-image": "url(https://assets.deamoy.com/fU_NTOGwOr3),linear-gradient(rgba(13, 92, 225, 0.9) 0%, rgba(13, 92, 225, 0) 100%)",
+        "background-size": "auto auto,100% 100%",
+        "background-position": "0% 0%,50% 50%",
+        "background-repeat": "no-repeat,repeat",
+        "background-attachment": "scroll,scroll"
+      },
+      "uri": "std.Container",
+      "from": "root",
+      "sort": "a8V"
+    },
+    "ContainerqzLKXMtBfV0": {
+      "type": "element",
+      "id": "ContainerqzLKXMtBfV0",
+      "styles": {
+        "flex-basis": "auto",
+        "width": "1175px",
+        "flex-direction": "row"
+      },
+      "uri": "std.Container",
+      "from": "Container81G23nkwgTE",
+      "sort": "a0"
+    },
+    "ContainernRa6Kst9611": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "margin": "0px 70px 0px 0px "
+      },
+      "uri": "std.Container",
+      "sort": "a0",
+      "id": "ContainernRa6Kst9611",
+      "from": "ContainerqzLKXMtBfV0"
+    },
+    "ContainerHEZuoX9WHlm": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "justify-content": "start",
+        "align-items": "center",
+        "padding": "0px 0px 0px 10px "
+      },
+      "uri": "std.Container",
+      "sort": "a4",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/sUoM6vXb_ji"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "16px",
+            "height": "16px"
+          },
+          "uri": "std.Image",
+          "sort": "Zz"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "1811 Silverside Rd,\nWilmington, DE 19810, USA"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "16px",
+            "font-weight": "400",
+            "line-height": "22px"
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        }
+      ],
+      "from": "ContainernRa6Kst9611.children",
+      "id": "ContainerHEZuoX9WHlm"
+    },
+    "TextiBM66mlxLYr": {
+      "type": "element",
+      "props": {
+        "content": "1811 Silverside Rd,\nWilmington, DE 19810, USA"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "22px"
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "ContainerHEZuoX9WHlm.children",
+      "id": "TextiBM66mlxLYr"
+    },
+    "ImageiB1LyZSAMBV": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/sUoM6vXb_ji"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "16px",
+        "height": "16px"
+      },
+      "uri": "std.Image",
+      "sort": "Zz",
+      "from": "ContainerHEZuoX9WHlm.children",
+      "id": "ImageiB1LyZSAMBV"
+    },
+    "Containerh6qiKfeTYYu": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "justify-content": "start",
+        "align-items": "center",
+        "padding": "0px 0px 0px 10px "
+      },
+      "uri": "std.Container",
+      "sort": "a3",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/PG4KsInq-fq"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "16px",
+            "height": "16px"
+          },
+          "uri": "std.Image",
+          "sort": "Zz"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "contact@info.com"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "16px",
+            "font-weight": "400",
+            "line-height": "14px"
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        }
+      ],
+      "from": "ContainernRa6Kst9611.children",
+      "id": "Containerh6qiKfeTYYu"
+    },
+    "Textig60LZo2h_c": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "contact@info.com"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "16px",
+        "font-weight": "400",
+        "line-height": "14px"
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "Containerh6qiKfeTYYu.children",
+      "id": "Textig60LZo2h_c"
+    },
+    "Image5hVUbOAFV6X": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/PG4KsInq-fq"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "16px",
+        "height": "16px"
+      },
+      "uri": "std.Image",
+      "sort": "Zz",
+      "from": "Containerh6qiKfeTYYu.children",
+      "id": "Image5hVUbOAFV6X"
+    },
+    "ContaineroVrhwUVKO7W": {
+      "type": "element",
+      "styles": {
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "justify-content": "start",
+        "align-items": "center",
+        "padding": "0px 0px 0px 10px "
+      },
+      "uri": "std.Container",
+      "sort": "a2",
+      "children": [
+        {
+          "type": "element",
+          "props": {
+            "width": 400,
+            "height": 400,
+            "src": "https://assets.deamoy.com/7sWR2qqzZ6Q"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "width": "22px",
+            "height": "22px"
+          },
+          "uri": "std.Image",
+          "sort": "Zz"
+        },
+        {
+          "type": "element",
+          "props": {
+            "heading": 2,
+            "type": "success",
+            "children": "(+806) 000 88 99"
+          },
+          "styles": {
+            "flex-basis": "auto",
+            "color": "rgba(255,255,255,1)",
+            "font-size": "22px",
+            "font-weight": "700"
+          },
+          "uri": "std.Text",
+          "sort": "a0"
+        }
+      ],
+      "from": "ContainernRa6Kst9611.children",
+      "id": "ContaineroVrhwUVKO7W"
+    },
+    "Text-jaz6c4xSw5": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "(+806) 000 88 99"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-size": "22px",
+        "font-weight": "700"
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "ContaineroVrhwUVKO7W.children",
+      "id": "Text-jaz6c4xSw5"
+    },
+    "Imagem0pc8cw-MEV": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/7sWR2qqzZ6Q"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "width": "22px",
+        "height": "22px"
+      },
+      "uri": "std.Image",
+      "sort": "Zz",
+      "from": "ContaineroVrhwUVKO7W.children",
+      "id": "Imagem0pc8cw-MEV"
+    },
+    "Text9aZq3OVXhyf": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "Request Free\nConsultancy"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "rgba(255,255,255,1)",
+        "font-weight": "700",
+        "font-size": "60px",
+        "line-height": "70px",
+        "margin": "0px 0px 10px 0px "
+      },
+      "uri": "std.Text",
+      "sort": "a0",
+      "from": "ContainernRa6Kst9611.children",
+      "id": "Text9aZq3OVXhyf"
+    },
+    "ContainerlDCzSLjVYdu": {
+      "type": "element",
+      "id": "ContainerlDCzSLjVYdu",
+      "styles": {
+        "flex-basis": "auto"
+      },
+      "uri": "std.Container",
+      "from": "ContainerqzLKXMtBfV0",
+      "sort": "a1"
+    },
+    "Image9cVBGZnXdwN": {
+      "type": "element",
+      "props": {
+        "width": 400,
+        "height": 400,
+        "src": "https://assets.deamoy.com/gQcy1YHrXFS"
+      },
+      "styles": {
+        "flex-basis": "auto"
+      },
+      "uri": "std.Image",
+      "id": "Image9cVBGZnXdwN",
+      "from": "ContainerlDCzSLjVYdu",
+      "sort": "a0"
+    },
+    "TextAMZdNz4ku2d": {
+      "type": "element",
+      "props": {
+        "heading": 2,
+        "type": "success",
+        "children": "CONTACT US"
+      },
+      "styles": {
+        "flex-basis": "auto",
+        "color": "#f8ff35",
+        "font-size": "14px"
+      },
+      "uri": "std.Text",
+      "sort": "Zz",
+      "id": "TextAMZdNz4ku2d",
+      "from": "ContainernRa6Kst9611"
+    }
+  },
+  "breakpoints": {
+    "primary": {
+      "id": "primary",
+      "width": 1280,
+      "height": "auto"
+    },
+    "secondary": {
+      "id": "secondary",
+      "title": "Mobile",
+      "width": 428,
+      "height": "auto",
+      "maxWidth": 479
+    }
+  },
+  "main": "root",
+  "meta": {
+    "name": null,
+    "slug": "112341234",
+    "title": null,
+    "isHome": false,
+    "imageUrl": null,
+    "description": null
+  },
+  "comment": "fkvNqb5ROXE"
+}

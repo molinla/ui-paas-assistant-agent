@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="fixed w-full bg-white shadow-lg z-50">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <svg class="w-10 h-10" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 5L30 15L20 25L10 15L20 5Z" fill="#FF6B6B" />
+                    <path d="M20 15L30 25L20 35L10 25L20 15Z" fill="#4ECDC4" />
+                </svg>
+                <span class="text-2xl font-bold text-gray-800">WarmHome</span>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="#" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">首页</a>
+                <a href="#" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">产品系列</a>
+                <a href="#" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">技术优势</a>
+                <a href="#" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">关于我们</a>
+                <a href="#" class="text-gray-600 hover:text-gray-900 transition-colors duration-200">联系方式</a>
+            </nav>
+
+            <!-- CTA Button -->
+            <div class="flex items-center space-x-4">
+                <button
+                    class="hidden md:block px-6 py-2 bg-red-500 text-white font-semibold rounded-lg hover:bg-red-600 transform hover:scale-105 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50">
+                    立即购买
+                </button>
+
+                <!-- Mobile Menu Button -->
+                <button
+                    class="md:hidden p-2 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                    <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu (Hidden by default) -->
+        <div class="hidden md:hidden px-4 py-3 space-y-2 bg-gray-50">
+            <a href="#" class="block px-3 py-2 text-gray-600 rounded-lg hover:bg-gray-100">首页</a>
+            <a href="#" class="block px-3 py-2 text-gray-600 rounded-lg hover:bg-gray-100">产品系列</a>
+            <a href="#" class="block px-3 py-2 text-gray-600 rounded-lg hover:bg-gray-100">技术优势</a>
+            <a href="#" class="block px-3 py-2 text-gray-600 rounded-lg hover:bg-gray-100">关于我们</a>
+            <a href="#" class="block px-3 py-2 text-gray-600 rounded-lg hover:bg-gray-100">联系方式</a>
+            <button class="w-full px-6 py-2 bg-red-500 text-white font-semibold rounded-lg hover:bg-red-600">
+                立即购买
+            </button>
+        </div>
+    </header>
+    <section class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 relative">
+        <div class="container mx-auto px-4 min-h-screen py-12 pt-24 flex items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
+                <!-- Left Content -->
+                <div class="space-y-8 z-10">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+                        Cozy Comfort, <br />
+                        <span class="text-amber-600">Smart Heating</span> <br />
+                        for Your Home
+                    </h1>
+
+                    <p class="text-xl text-gray-700 max-w-lg">
+                        Experience instant warmth with our energy-efficient electric heaters. Save up to 30% on your
+                        heating bills while staying perfectly comfortable.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button
+                            class="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all transform hover:scale-105 focus:ring-4 focus:ring-amber-200 flex items-center justify-center">
+                            <span>Shop Now</span>
+                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                            </svg>
+                        </button>
+                        <button
+                            class="border-2 border-gray-800 text-gray-800 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-800 hover:text-white transition-all flex items-center justify-center">
+                            View Features
+                        </button>
+                    </div>
+
+                    <div class="flex items-center gap-6 pt-4">
+                        <div class="flex -space-x-2">
+                            <img src="https://i.pravatar.cc/40?img=1" alt="Customer"
+                                class="w-10 h-10 rounded-full border-2 border-white" />
+                            <img src="https://i.pravatar.cc/40?img=2" alt="Customer"
+                                class="w-10 h-10 rounded-full border-2 border-white" />
+                            <img src="https://i.pravatar.cc/40?img=3" alt="Customer"
+                                class="w-10 h-10 rounded-full border-2 border-white" />
+                        </div>
+                        <div class="text-sm">
+                            <p class="font-semibold text-gray-900">Trusted by 10,000+ customers</p>
+                            <div class="flex items-center text-amber-500">
+                                ★★★★★ <span class="text-gray-600 ml-1">4.9/5 rating</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Content -->
+                <div class="relative z-10 mt-8 lg:mt-0">
+                    <div class="relative">
+                        <img src="https://picsum.photos/600/700" alt="Electric Heater"
+                            class="rounded-2xl shadow-2xl w-full h-[300px] md:h-[500px] object-cover" />
+                        <div class="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 bg-white p-3 md:p-4 rounded-lg shadow-lg">
+                            <div class="flex items-center gap-3">
+                                <svg class="w-12 h-12 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
+                                    <path
+                                        d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" />
+                                </svg>
+                                <div>
+                                    <p class="font-bold text-gray-900">Energy Efficient</p>
+                                    <p class="text-sm text-gray-600">Uses 50% less power</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Background Decorative Elements -->
+        <div class="absolute top-0 right-0 -z-10">
+            <svg width="400" height="400" viewBox="0 0 400 400" fill="none">
+                <circle cx="200" cy="200" r="200" fill="rgba(251, 191, 36, 0.1)" />
+            </svg>
+        </div>
+        <div class="absolute bottom-0 left-0 -z-10">
+            <svg width="300" height="300" viewBox="0 0 300 300" fill="none">
+                <circle cx="150" cy="150" r="150" fill="rgba(251, 191, 36, 0.05)" />
+            </svg>
+        </div>
+    </section>
+    <section class="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">智能电暖炉的革新之选</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">为您的家庭带来智能、安全、节能的取暖体验</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-6">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">智能温控系统</h3>
+                    <p class="text-gray-600 mb-4">采用AI智能调温技术，精确控制室内温度，让您享受恒温舒适</p>
+                    <div class="flex items-center text-sm text-blue-600">
+                        <span class="font-medium">节能高达40%</span>
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-6">
+                        <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">安全防护升级</h3>
+                    <p class="text-gray-600 mb-4">多重安全保护机制，倾倒自动断电，让取暖更安心</p>
+                    <div class="flex items-center text-sm text-green-600">
+                        <span class="font-medium">安全认证完备</span>
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="flex items-center justify-center w-16 h-16 bg-purple-100 rounded-full mb-6">
+                        <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">快速升温技术</h3>
+                    <p class="text-gray-600 mb-4">3秒即热技术，配合360°旋转送风，温暖无死角</p>
+                    <div class="flex items-center text-sm text-purple-600">
+                        <span class="font-medium">速热更高效</span>
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="p-6">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">98%</div>
+                    <p class="text-gray-600">用户好评率</p>
+                </div>
+                <div class="p-6">
+                    <div class="text-4xl font-bold text-green-600 mb-2">50万+</div>
+                    <p class="text-gray-600">累计服务家庭</p>
+                </div>
+                <div class="p-6">
+                    <div class="text-4xl font-bold text-purple-600 mb-2">5年</div>
+                    <p class="text-gray-600">质保期限</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-gradient-to-b from-gray-50 to-white py-24">
+        <div class="container mx-auto px-4">
+            <!-- Hero Product -->
+            <div class="flex flex-col-reverse lg:flex-row items-center gap-12 mb-24">
+                <div class="w-full lg:w-1/2 space-y-8">
+                    <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+                        Experience Cozy Comfort with Our Premium Electric Heater
+                    </h2>
+                    <p class="text-lg text-gray-600">
+                        Transform your space into a warm sanctuary with our advanced heating technology that combines
+                        efficiency, safety, and elegant design.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button
+                            class="bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-orange-700 transition-colors">
+                            Shop Now
+                        </button>
+                        <button
+                            class="border-2 border-gray-300 px-8 py-4 rounded-lg font-semibold hover:border-orange-600 hover:text-orange-600 transition-colors">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2">
+                    <img src="https://picsum.photos/800/600" alt="Premium Electric Heater"
+                        class="rounded-2xl shadow-2xl w-full" />
+                </div>
+            </div>
+
+            <!-- Features Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                    <svg class="w-12 h-12 text-orange-600 mb-6" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <h3 class="text-xl font-bold mb-4">Energy Efficient</h3>
+                    <p class="text-gray-600">Smart temperature control system saves up to 30% on energy costs while
+                        maintaining optimal comfort.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                    <svg class="w-12 h-12 text-orange-600 mb-6" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    <h3 class="text-xl font-bold mb-4">Advanced Safety</h3>
+                    <p class="text-gray-600">Multiple safety features including tip-over protection and overheat
+                        prevention system.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                    <svg class="w-12 h-12 text-orange-600 mb-6" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M12 6v6l4 2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <h3 class="text-xl font-bold mb-4">Quick Heating</h3>
+                    <p class="text-gray-600">Rapid heating technology warms your space in minutes with even heat
+                        distribution.</p>
+                </div>
+            </div>
+
+            <!-- Technical Specs -->
+            <div class="bg-gray-50 rounded-2xl p-8 lg:p-12">
+                <h3 class="text-2xl font-bold mb-8 text-center">Technical Specifications</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
+                            <svg class="w-6 h-6 text-orange-600" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Coverage Area</h4>
+                            <p class="text-gray-600">Up to 400 sq. ft.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
+                            <svg class="w-6 h-6 text-orange-600" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M12 2v20M2 12h20" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Power Settings</h4>
+                            <p class="text-gray-600">750W / 1500W</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
+                            <svg class="w-6 h-6 text-orange-600" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Temperature Range</h4>
+                            <p class="text-gray-600">40°F - 95°F</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <!-- Section Header -->
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl mb-4">
+                    Trusted by Thousands of Happy Customers
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    See what our customers are saying about our premium electric heaters
+                </p>
+            </div>
+
+            <!-- Testimonials Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial Card 1 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                    <div class="flex items-center mb-6">
+                        <img src="https://i.pravatar.cc/56" alt="Customer" class="w-14 h-14 rounded-full" />
+                        <div class="ml-4">
+                            <h3 class="font-semibold text-gray-900">Sarah Johnson</h3>
+                            <p class="text-gray-600">Verified Buyer</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-4">
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                    </div>
+                    <p class="text-gray-700 mb-4">"The electric heater has transformed our living room. It's
+                        energy-efficient and provides consistent warmth throughout the space."</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-sm text-gray-500">2 months ago</span>
+                        <img src="https://picsum.photos/32/32" alt="Company Logo" class="h-8 w-auto" />
+                    </div>
+                </div>
+
+                <!-- Testimonial Card 2 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                    <div class="flex items-center mb-6">
+                        <img src="https://i.pravatar.cc/57" alt="Customer" class="w-14 h-14 rounded-full" />
+                        <div class="ml-4">
+                            <h3 class="font-semibold text-gray-900">Michael Chen</h3>
+                            <p class="text-gray-600">Verified Buyer</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-4">
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                    </div>
+                    <p class="text-gray-700 mb-4">"Perfect for my home office. The smart temperature control ensures I'm
+                        always comfortable while working."</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-sm text-gray-500">1 month ago</span>
+                        <img src="https://picsum.photos/32/32" alt="Company Logo" class="h-8 w-auto" />
+                    </div>
+                </div>
+
+                <!-- Testimonial Card 3 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                    <div class="flex items-center mb-6">
+                        <img src="https://i.pravatar.cc/58" alt="Customer" class="w-14 h-14 rounded-full" />
+                        <div class="ml-4">
+                            <h3 class="font-semibold text-gray-900">Emma Thompson</h3>
+                            <p class="text-gray-600">Verified Buyer</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-4">
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                    </div>
+                    <p class="text-gray-700 mb-4">"Stylish design and excellent heating performance. My electricity
+                        bills have decreased since installing this heater."</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-sm text-gray-500">3 months ago</span>
+                        <img src="https://picsum.photos/32/32" alt="Company Logo" class="h-8 w-auto" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                    智能电暖炉特色功能
+                </h2>
+                <p class="mt-4 text-xl text-gray-500">
+                    为您打造舒适温暖的居家环境
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+                <!-- Feature Card 1 -->
+                <div
+                    class="relative bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-shadow duration-300">
+                    <div class="flex items-center space-x-4">
+                        <div class="flex-shrink-0">
+                            <svg class="w-12 h-12 text-indigo-600" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">智能温控系统</h3>
+                    </div>
+                    <p class="mt-4 text-gray-500 leading-relaxed">
+                        采用先进的PTC发热技术，配备智能温度感应器，可精确控制室内温度，让您享受恒温舒适。
+                    </p>
+                    <dl class="mt-6 space-y-4">
+                        <div class="flex items-center">
+                            <dt class="text-sm font-medium text-gray-500 w-32">温度范围</dt>
+                            <dd class="text-sm text-gray-900">16°C - 32°C</dd>
+                        </div>
+                        <div class="flex items-center">
+                            <dt class="text-sm font-medium text-gray-500 w-32">控温精度</dt>
+                            <dd class="text-sm text-gray-900">±0.5°C</dd>
+                        </div>
+                    </dl>
+                </div>
+
+                <!-- Feature Card 2 -->
+                <div
+                    class="relative bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-shadow duration-300">
+                    <div class="flex items-center space-x-4">
+                        <div class="flex-shrink-0">
+                            <svg class="w-12 h-12 text-indigo-600" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">节能省电</h3>
+                    </div>
+                    <p class="mt-4 text-gray-500 leading-relaxed">
+                        创新节能技术，智能调节功率输出，有效降低能耗，为您节省电费支出。
+                    </p>
+                    <dl class="mt-6 space-y-4">
+                        <div class="flex items-center">
+                            <dt class="text-sm font-medium text-gray-500 w-32">能效等级</dt>
+                            <dd class="text-sm text-gray-900">一级能效</dd>
+                        </div>
+                        <div class="flex items-center">
+                            <dt class="text-sm font-medium text-gray-500 w-32">日均耗电</dt>
+                            <dd class="text-sm text-gray-900">1.2-2.5度</dd>
+                        </div>
+                    </dl>
+                </div>
+
+                <!-- Feature Card 3 -->
+                <div
+                    class="relative bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-shadow duration-300">
+                    <div class="flex items-center space-x-4">
+                        <div class="flex-shrink-0">
+                            <svg class="w-12 h-12 text-indigo-600" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">安全防护</h3>
+                    </div>
+                    <p class="mt-4 text-gray-500 leading-relaxed">
+                        多重安全保护机制，倾倒自动断电，过热保护，让您使用更放心。
+                    </p>
+                    <dl class="mt-6 space-y-4">
+                        <div class="flex items-center">
+                            <dt class="text-sm font-medium text-gray-500 w-32">安全认证</dt>
+                            <dd class="text-sm text-gray-900">3C认证</dd>
+                        </div>
+                        <div class="flex items-center">
+                            <dt class="text-sm font-medium text-gray-500 w-32">防护等级</dt>
+                            <dd class="text-sm text-gray-900">IPX4级防水</dd>
+                        </div>
+                    </dl>
+                </div>
+
+                <!-- Feature Card 4 -->
+                <div
+                    class="relative bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-shadow duration-300">
+                    <div class="flex items-center space-x-4">
+                        <div class="flex-shrink-0">
+                            <svg class="w-12 h-12 text-indigo-600" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">智能操控</h3>
+                    </div>
+                    <p class="mt-4 text-gray-500 leading-relaxed">
+                        支持手机APP远程控制，语音智能助手，让取暖更便捷。
+                    </p>
+                    <dl class="mt-6 space-y-4">
+                        <div class="flex items-center">
+                            <dt class="text-sm font-medium text-gray-500 w-32">控制方式</dt>
+                            <dd class="text-sm text-gray-900">APP/语音/触控</dd>
+                        </div>
+                        <div class="flex items-center">
+                            <dt class="text-sm font-medium text-gray-500 w-32">智能平台</dt>
+                            <dd class="text-sm text-gray-900">小米/天猫精灵</dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-gray-50 py-24 px-4 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto">
+            <!-- Section Header -->
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">选择最适合您的电暖炉方案</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">为您的温暖需求提供多种选择，让冬天不再寒冷</p>
+            </div>
+
+            <!-- Pricing Grid -->
+            <div class="grid lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Basic Plan -->
+                <div
+                    class="bg-white rounded-2xl shadow-lg p-8 border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-center">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-4">经济型</h3>
+                        <div class="text-5xl font-bold text-gray-900 mb-6">
+                            ¥599
+                            <span class="text-base font-normal text-gray-600">/台</span>
+                        </div>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-gray-600">800W 功率</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-gray-600">2档温控</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-gray-600">基础防水设计</span>
+                        </li>
+                    </ul>
+                    <button
+                        class="w-full py-3 px-6 rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold transition-colors duration-200">
+                        立即购买
+                    </button>
+                </div>
+
+                <!-- Popular Plan -->
+                <div
+                    class="bg-white rounded-2xl shadow-xl p-8 border-2 border-blue-500 transform scale-105 lg:scale-100 lg:hover:scale-105 transition-transform duration-300">
+                    <div
+                        class="absolute top-0 right-0 bg-blue-500 text-white px-3 py-1 rounded-bl-lg rounded-tr-lg text-sm font-medium">
+                        最受欢迎
+                    </div>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-4">智能型</h3>
+                        <div class="text-5xl font-bold text-gray-900 mb-6">
+                            ¥999
+                            <span class="text-base font-normal text-gray-600">/台</span>
+                        </div>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-blue-500 mr-3" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-gray-600">1500W 功率</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-blue-500 mr-3" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-gray-600">智能温控系统</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-blue-500 mr-3" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-gray-600">APP远程控制</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-blue-500 mr-3" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-gray-600">IPX4防水等级</span>
+                        </li>
+                    </ul>
+                    <button
+                        class="w-full py-3 px-6 rounded-lg bg-blue-500 hover:bg-blue-600 text-white font-semibold transition-colors duration-200">
+                        立即购买
+                    </button>
+                </div>
+
+                <!-- Premium Plan -->
+                <div
+                    class="bg-white rounded-2xl shadow-lg p-8 border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-center">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-4">豪华型</h3>
+                        <div class="text-5xl font-bold text-gray-900 mb-6">
+                            ¥1499
+                            <span class="text-base font-normal text-gray-600">/台</span>
+                        </div>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-gray-600">2000W 功率</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-gray-600">AI智能调温</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-gray-600">语音控制</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-gray-600">IPX5防水等级</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <span class="text-gray-600">5年质保</span>
+                        </li>
+                    </ul>
+                    <button
+                        class="w-full py-3 px-6 rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold transition-colors duration-200">
+                        立即购买
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <!-- Section Header -->
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl mb-4">
+                    智能电暖炉品牌合作伙伴
+                </h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                    与行业领先品牌深度合作，为您提供优质的供暖解决方案
+                </p>
+            </div>
+
+            <!-- Logo Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                <!-- Logo Items -->
+                <div class="col-span-1 flex justify-center items-center">
+                    <div
+                        class="w-32 h-12 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300">
+                        <svg class="w-full h-8" viewBox="0 0 160 48" fill="none">
+                            <rect width="160" height="48" rx="8" fill="#4B5563" />
+                            <text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="white" font-size="16">Partner
+                                1</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="col-span-1 flex justify-center items-center">
+                    <div
+                        class="w-32 h-12 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300">
+                        <svg class="w-full h-8" viewBox="0 0 160 48" fill="none">
+                            <rect width="160" height="48" rx="8" fill="#4B5563" />
+                            <text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="white" font-size="16">Partner
+                                2</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="col-span-1 flex justify-center items-center">
+                    <div
+                        class="w-32 h-12 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300">
+                        <svg class="w-full h-8" viewBox="0 0 160 48" fill="none">
+                            <rect width="160" height="48" rx="8" fill="#4B5563" />
+                            <text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="white" font-size="16">Partner
+                                3</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="col-span-1 flex justify-center items-center">
+                    <div
+                        class="w-32 h-12 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300">
+                        <svg class="w-full h-8" viewBox="0 0 160 48" fill="none">
+                            <rect width="160" height="48" rx="8" fill="#4B5563" />
+                            <text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="white" font-size="16">Partner
+                                4</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="col-span-1 flex justify-center items-center">
+                    <div
+                        class="w-32 h-12 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300">
+                        <svg class="w-full h-8" viewBox="0 0 160 48" fill="none">
+                            <rect width="160" height="48" rx="8" fill="#4B5563" />
+                            <text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="white" font-size="16">Partner
+                                5</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="col-span-1 flex justify-center items-center">
+                    <div
+                        class="w-32 h-12 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300">
+                        <svg class="w-full h-8" viewBox="0 0 160 48" fill="none">
+                            <rect width="160" height="48" rx="8" fill="#4B5563" />
+                            <text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="white" font-size="16">Partner
+                                6</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Integration Details -->
+            <div class="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
+                <div class="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">品质保证</h3>
+                    <p class="text-gray-600">与知名品牌合作，确保每一台电暖炉都符合最高质量标准</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
+                    <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">技术支持</h3>
+                    <p class="text-gray-600">专业的售后团队，为您提供全方位的技术支持和维护服务</p>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
+                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">简单设置</h3>
+                    <p class="text-gray-600">快速安装指南和智能控制系统，让您轻松操作使用</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Contact Form Column -->
+                <div class="bg-gray-50 rounded-xl p-8 shadow-lg">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-6">联系我们</h2>
+                    <form class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">姓名</label>
+                            <input type="text"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                                required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">电话</label>
+                            <input type="tel"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                                required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">邮箱</label>
+                            <input type="email"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                                required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">留言</label>
+                            <textarea rows="4"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+                                required></textarea>
+                        </div>
+                        <button type="submit"
+                            class="w-full bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3 px-6 rounded-md transition duration-300 transform hover:scale-[1.02]">
+                            提交咨询
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info Column -->
+                <div class="lg:pl-12">
+                    <div class="space-y-8">
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-4">联系方式</h3>
+                            <div class="space-y-4">
+                                <div class="flex items-start">
+                                    <svg class="w-6 h-6 text-orange-600 mt-1 flex-shrink-0" fill="none"
+                                        stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    </svg>
+                                    <div class="ml-4">
+                                        <p class="text-gray-700">上海市浦东新区张江高科技园区</p>
+                                        <p class="text-gray-700">科苑路88号</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <svg class="w-6 h-6 text-orange-600 mt-1 flex-shrink-0" fill="none"
+                                        stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                    </svg>
+                                    <div class="ml-4">
+                                        <p class="text-gray-700">400-888-8888</p>
+                                        <p class="text-gray-700">021-88888888</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <svg class="w-6 h-6 text-orange-600 mt-1 flex-shrink-0" fill="none"
+                                        stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                    </svg>
+                                    <div class="ml-4">
+                                        <p class="text-gray-700">service@warmheater.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-4">营业时间</h3>
+                            <div class="space-y-2">
+                                <p class="text-gray-700">周一至周五: 9:00 - 18:00</p>
+                                <p class="text-gray-700">周六至周日: 10:00 - 16:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                    常见问题解答
+                </h2>
+                <p class="mt-4 text-lg text-gray-600">
+                    了解更多关于我们电暖炉产品的详细信息
+                </p>
+            </div>
+
+            <div class="max-w-3xl mx-auto divide-y divide-gray-200">
+                <div class="group" x-data="{ open: false }">
+                    <button class="flex w-full items-center justify-between py-6 text-left" @click="open = !open">
+                        <span class="text-lg font-medium text-gray-900">电暖炉的功率范围是多少？</span>
+                        <svg class="h-6 w-6 text-gray-400 group-hover:text-gray-500" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="pb-6" x-show="open">
+                        <p class="text-base text-gray-600">
+                            我们的电暖炉功率范围从800W到2000W不等，可满足不同房间大小的供暖需求。每款产品都标注有具体功率参数，便于您选择最适合的型号。</p>
+                    </div>
+                </div>
+
+                <div class="group" x-data="{ open: false }">
+                    <button class="flex w-full items-center justify-between py-6 text-left" @click="open = !open">
+                        <span class="text-lg font-medium text-gray-900">电暖炉有哪些安全保护功能？</span>
+                        <svg class="h-6 w-6 text-gray-400 group-hover:text-gray-500" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="pb-6" x-show="open">
+                        <p class="text-base text-gray-600">我们的产品配备多重安全保护：倾倒自动断电、过热保护、童锁功能等。所有产品都通过国家安全认证，让您使用更放心。</p>
+                    </div>
+                </div>
+
+                <div class="group" x-data="{ open: false }">
+                    <button class="flex w-full items-center justify-between py-6 text-left" @click="open = !open">
+                        <span class="text-lg font-medium text-gray-900">如何正确清洁和维护电暖炉？</span>
+                        <svg class="h-6 w-6 text-gray-400 group-hover:text-gray-500" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="pb-6" x-show="open">
+                        <p class="text-base text-gray-600">定期清洁很重要：1. 确保电源已关闭并冷却；2. 用软布擦拭外表面；3. 检查并清理散热片；4.
+                            存放时保持干燥。详细步骤请参考说明书。</p>
+                    </div>
+                </div>
+
+                <div class="group" x-data="{ open: false }">
+                    <button class="flex w-full items-center justify-between py-6 text-left" @click="open = !open">
+                        <span class="text-lg font-medium text-gray-900">产品保修期是多久？</span>
+                        <svg class="h-6 w-6 text-gray-400 group-hover:text-gray-500" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="pb-6" x-show="open">
+                        <p class="text-base text-gray-600">我们提供2年的产品保修服务，包括免费维修和部件更换。请保留购买凭证，以便享受售后服务。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center">
+                <a href="#contact"
+                    class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
+                    还有问题？联系我们
+                    <svg class="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-[#2A3B4C] text-gray-100 py-16 w-full">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="space-y-4">
+                    <svg class="w-40 h-12" viewBox="0 0 200 48" fill="none">
+                        <path d="M10 24h180" stroke="#4ECDC4" stroke-width="4" />
+                        <text x="20" y="35" fill="#4ECDC4" font-family="Roboto" font-size="24">WarmthHub</text>
+                    </svg>
+                    <p class="text-sm leading-relaxed font-light">
+                        Your trusted source for premium electric heaters. Bringing warmth and comfort to every home.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="space-y-4">
+                    <h3 class="text-lg font-semibold text-[#4ECDC4]">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-[#4ECDC4] transition-colors duration-300">Products</a></li>
+                        <li><a href="#" class="hover:text-[#4ECDC4] transition-colors duration-300">About Us</a></li>
+                        <li><a href="#" class="hover:text-[#4ECDC4] transition-colors duration-300">Contact</a></li>
+                        <li><a href="#" class="hover:text-[#4ECDC4] transition-colors duration-300">Support</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div class="space-y-4">
+                    <h3 class="text-lg font-semibold text-[#4ECDC4]">Support</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-[#4ECDC4] transition-colors duration-300">Shipping Info</a>
+                        </li>
+                        <li><a href="#" class="hover:text-[#4ECDC4] transition-colors duration-300">Returns</a></li>
+                        <li><a href="#" class="hover:text-[#4ECDC4] transition-colors duration-300">FAQ</a></li>
+                        <li><a href="#" class="hover:text-[#4ECDC4] transition-colors duration-300">Track Order</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social Links -->
+                <div class="space-y-4">
+                    <h3 class="text-lg font-semibold text-[#4ECDC4]">Connect With Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:scale-110 transition-transform duration-300">
+                            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="hover:scale-110 transition-transform duration-300">
+                            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                                <path
+                                    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="hover:scale-110 transition-transform duration-300">
+                            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Legal Section -->
+            <div class="mt-12 pt-8 border-t border-gray-700">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="text-sm text-gray-400">
+                        <span>&copy; 2024 WarmthHub. All rights reserved.</span>
+                    </div>
+                    <div class="flex space-x-6 text-sm text-gray-400 md:justify-end">
+                        <a href="#" class="hover:text-[#4ECDC4] transition-colors duration-300">Privacy Policy</a>
+                        <a href="#" class="hover:text-[#4ECDC4] transition-colors duration-300">Terms of Service</a>
+                        <a href="#" class="hover:text-[#4ECDC4] transition-colors duration-300">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
